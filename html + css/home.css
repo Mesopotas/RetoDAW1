@@ -292,7 +292,7 @@ header img {
     font-size: 60px;
     color: white;
     padding-top: 45px;
-
+    margin-bottom: 10px;
 }
 
 .tarjeta-horizontal {
@@ -450,3 +450,28 @@ header img {
 }
 
 /* Fin Lo mas Vendido */
+
+/* Inicio Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+.footer-texto1{
+    display: flex;
+    color: white;
+}
+
+.footer-texto1::after{
+    content: "/";
+}
+
+.footer-RRSS{
+    display: flex;
+}
+
+.footer-RRSS img{
+    max-width: 50px;
+}
