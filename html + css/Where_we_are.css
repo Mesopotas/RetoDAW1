@@ -279,8 +279,13 @@ header img{
 
 .mapas{
     display: flex;
-    max-height: 700px;
-    padding-top: 58px;
+    max-height: 200px;
+    padding-top: 68px;
+    padding-left: 250px;
+}
+
+.contactanos{
+    padding-left: 50px;
 }
 
 .contactanos p{
@@ -308,6 +313,7 @@ header img{
 
 .formulario input{
     height: 40px;
+    width: 575px;
 }
 
 .form-name{
