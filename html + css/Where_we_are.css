@@ -280,6 +280,7 @@ header img{
 .mapas{
     display: flex;
     max-height: 700px;
+    padding-top: 58px;
 }
 
 .contactanos p{
