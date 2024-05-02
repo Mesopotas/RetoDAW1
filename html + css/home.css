@@ -5,14 +5,29 @@ body {
 
 header {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(0, 0, 0);
     padding: 10px;
 }
 
+@media only screen and (max-width: 450px){
+    header{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .header-texto{
+        flex-direction: column;
+        margin: 0px;
+    }
+}
+
 .header-texto {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: rgb(0, 0, 0);
@@ -492,6 +507,7 @@ footer{
 
 .footer-RRSS{
     display: flex;
+    filter: invert(1);
 }
 
 .footer-RRSS img{
