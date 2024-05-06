@@ -271,7 +271,7 @@ header img{
 .container-2{
     display: flex;
     justify-content: center;
-    transform: translate(10%, -38%);
+    margin: 0 auto;
     max-width: 1600px;
     background-color: rgba(0, 0, 0, 0.247);
 }
