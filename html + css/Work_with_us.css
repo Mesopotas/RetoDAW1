@@ -276,6 +276,80 @@ header img{
     background-color: rgba(0, 0, 0, 0.247);
 }
 
+/* Inicio WWU */
+.WWU1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+.WWU1 img {
+    width: 29%;
+}
+
+.textWWU{
+    color: white;
+    font-size: larger;
+    width: 60%;
+    line-height: 1.5;
+    text-align: justify;
+}
+.WWU2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.WWU2 form {
+    max-width: 45%;
+}
+.texFormulario{
+    color: white;
+    font-size: larger;
+    width: 50%;
+}
+.texFormulario p{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.formu{
+    align-items: center;
+}
+.txreq{
+    font-size: 110%;
+    font-weight: bold;
+}
+.formu input[type="text"],
+.formu input[type="tel"],
+.formu input[type="email"] {
+    width: 120%;
+    padding: 8%;
+    margin-bottom: 15%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formu input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120%;
+}
+
+.formu input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/* Final WWU */
 /* Inicio Footer */
 
 footer{
