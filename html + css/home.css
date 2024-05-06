@@ -4,6 +4,7 @@ body {
 }
 
 header {
+    background-color: yellow;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,48 +13,7 @@ header {
     padding: 10px;
 }
 
-@media only screen and (max-width: 450px) {
-    header {
-        flex-direction: column;
-    }
-}
 
-@media only screen and (max-width: 450px) {
-    .header-texto {
-        flex-direction: column;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .header-desplegable-1 {
-        margin-right: 0px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .header-desplegable-2 {
-        margin-left: 0px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .header-desplegable-3 {
-        margin-right: 0px;
-        /*margin-left: 20px;*/
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .header-dp-content-3 {
-        transform: translate(59%, -10%);
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .header-desplegable-4 {
-        margin-left: 0px;
-    }
-}
 
 .header-texto {
     display: flex;
@@ -309,7 +269,6 @@ header img {
 
 /* Fin de cabecera */
 
-/* Inicio Lo mas Vendido */
 .container {
     background-image: url(./img/Default_cocinero_con_uniforme_negro_sobre_fondo_negro_1.jpg);
     background-repeat: no-repeat;
@@ -324,14 +283,7 @@ header img {
     background-color: rgba(0, 0, 0, 0.247);
 }
 
-@media only screen and (max-width: 450px) {
-    .container-2 {
-        flex-direction: row;
-        justify-content: normal;
-        padding-left: 20px;
-        transform: translate(0%, 0%);
-    }
-}
+/* Inicio Lo mas Vendido */
 
 .lo-mas-vendido {
     display: flex;
@@ -345,36 +297,6 @@ header img {
 
 .lo-mas-vendido span{
     font-size: 60px;
-}
-
-@media only screen and (max-width: 450px) {
-    .lo-mas-vendido span {
-        padding-left: 50px;
-    }
-}
-
-@media only screen and (max-width: 450px){
-    .tarjeta-horizontal{
-        flex-direction: column ;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .tarjetas-vertical {
-        flex-direction: column;
-    }
-}
-
-@media only screen and (max-width: 450px){
-    .tarjetav-1{
-        margin-bottom: 10px;
-    }
-}
-
-@media only screen and (max-width: 450px){
-    .tarjetav-2{
-        margin-bottom: 10px;
-    }
 }
 
 .tarjeta-horizontal {
@@ -539,24 +461,6 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 450px) {
-    footer {
-        flex-direction: column;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .footer-texto1 {
-        padding-bottom: 15px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .footer-RRSS {
-        padding-top: 10px;
-    }
-}
-
 .footer-texto1 {
     display: flex;
     color: white;
@@ -592,3 +496,124 @@ footer {
     max-width: 40px;
     padding: 10px;
 }
+
+
+/* RESPONSIVE */
+
+    /* Header */
+
+    @media only screen and (max-width: 450px) {
+        header {
+            flex-direction: column;
+        }
+        .header-texto {
+            flex-direction: column;
+        }
+
+        .header-logo {
+            padding-bottom: 10px;
+        }
+
+        .header-desplegable-1 {
+            margin-right: 0px;
+        }
+
+        .header-dp-content-1{
+            transform: translate(74%, -13%);
+        }
+
+        .header-dp-content-1 a{
+            padding-left: 10px;
+        }
+
+        .header-desplegable-2 {
+            margin-left: 0px;
+        }
+
+        .header-desplegable-3 {
+            margin-right: 0px;
+        }
+
+        .header-dp-content-3 {
+            transform: translate(59%, -10%);
+        }
+
+        .header-desplegable-4 {
+            margin-left: 0px;
+        }
+    }
+
+    /* Fin Header */
+
+    /* Lo mas vendido */
+
+    @media only screen and (max-width: 450px) {
+        .container-2 {
+            flex-direction: row;
+            justify-content: normal;
+            padding-left: 20px;
+            transform: translate(0%, 0%);
+        }
+    }
+
+    @media only screen and (max-width: 450px) {
+        .lo-mas-vendido span {
+            padding-left: 50px;
+        }
+    }
+    
+    @media only screen and (max-width: 450px){
+        .tarjeta-horizontal{
+            flex-direction: column ;
+            margin-right: 20px;
+        }
+    }
+    
+    @media only screen and (max-width: 450px) {
+        .tarjetas-vertical {
+            flex-direction: column;
+        }
+    }
+    
+    @media only screen and (max-width: 450px){
+        .tarjetav-1{
+            margin-bottom: 10px;
+        }
+    }
+    
+    @media only screen and (max-width: 450px){
+        .tarjetav-2{
+            margin-bottom: 10px;
+        }
+    }
+    
+    @media only screen and (max-width: 450px){
+        .tj-foto{
+            justify-content: center;
+            padding-bottom: 10px;
+        }
+    }
+
+    /* Fin Lo mas vendido */
+
+    /* Footer */
+
+    @media only screen and (max-width: 450px) {
+        footer {
+            flex-direction: column;
+        }
+    }
+    
+    @media only screen and (max-width: 450px) {
+        .footer-texto1 {
+            padding-bottom: 15px;
+        }
+    }
+    
+    @media only screen and (max-width: 450px) {
+        .footer-RRSS {
+            padding-top: 10px;
+        }
+    }
+
+    /* Fin Footer */
