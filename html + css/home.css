@@ -4,7 +4,6 @@ body {
 }
 
 header {
-    background-color: yellow;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,16 +19,23 @@ header {
     align-items: center;
     justify-content: center;
     background-color: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 10px;
 }
 
 header img {
     display: flex;
     align-items: start;
     max-width: 70px;
+}
+
+.header-img1 {
     margin-left: 15px;
     margin-right: 15px;
+}
 
+.header-img2 {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .header-logo {
@@ -278,7 +284,7 @@ header img {
 .container-2 {
     display: flex;
     justify-content: center;
-    transform: translate(10%, 0%);
+    margin: 0 auto;
     max-width: 1600px;
     background-color: rgba(0, 0, 0, 0.247);
 }
@@ -295,7 +301,7 @@ header img {
     margin-bottom: 10px;
 }
 
-.lo-mas-vendido span{
+.lo-mas-vendido span {
     font-size: 60px;
 }
 
@@ -498,122 +504,125 @@ footer {
 }
 
 
-/* RESPONSIVE */
+/* ------------------------- RESPONSIVE ------------------------- */
 
-    /* Header */
+/* Header */
 
-    @media only screen and (max-width: 450px) {
-        header {
-            flex-direction: column;
-        }
-        .header-texto {
-            flex-direction: column;
-        }
-
-        .header-logo {
-            padding-bottom: 10px;
-        }
-
-        .header-desplegable-1 {
-            margin-right: 0px;
-        }
-
-        .header-dp-content-1{
-            transform: translate(74%, -13%);
-        }
-
-        .header-dp-content-1 a{
-            padding-left: 10px;
-        }
-
-        .header-desplegable-2 {
-            margin-left: 0px;
-        }
-
-        .header-desplegable-3 {
-            margin-right: 0px;
-        }
-
-        .header-dp-content-3 {
-            transform: translate(59%, -10%);
-        }
-
-        .header-desplegable-4 {
-            margin-left: 0px;
-        }
+@media only screen and (max-width: 450px) {
+    header {
+        flex-direction: row;
     }
 
-    /* Fin Header */
-
-    /* Lo mas vendido */
-
-    @media only screen and (max-width: 450px) {
-        .container-2 {
-            flex-direction: row;
-            justify-content: normal;
-            padding-left: 20px;
-            transform: translate(0%, 0%);
-        }
+    .header-texto {
+        flex-direction: column;
     }
 
-    @media only screen and (max-width: 450px) {
-        .lo-mas-vendido span {
-            padding-left: 50px;
-        }
-    }
-    
-    @media only screen and (max-width: 450px){
-        .tarjeta-horizontal{
-            flex-direction: column ;
-            margin-right: 20px;
-        }
-    }
-    
-    @media only screen and (max-width: 450px) {
-        .tarjetas-vertical {
-            flex-direction: column;
-        }
-    }
-    
-    @media only screen and (max-width: 450px){
-        .tarjetav-1{
-            margin-bottom: 10px;
-        }
-    }
-    
-    @media only screen and (max-width: 450px){
-        .tarjetav-2{
-            margin-bottom: 10px;
-        }
-    }
-    
-    @media only screen and (max-width: 450px){
-        .tj-foto{
-            justify-content: center;
-            padding-bottom: 10px;
-        }
+    .header-logo {
+        padding-bottom: 10px;
+        min-width: 199px;
     }
 
-    /* Fin Lo mas vendido */
-
-    /* Footer */
-
-    @media only screen and (max-width: 450px) {
-        footer {
-            flex-direction: column;
-        }
-    }
-    
-    @media only screen and (max-width: 450px) {
-        .footer-texto1 {
-            padding-bottom: 15px;
-        }
-    }
-    
-    @media only screen and (max-width: 450px) {
-        .footer-RRSS {
-            padding-top: 10px;
-        }
+    .header-img1 {
+        margin-right: 10px;
     }
 
-    /* Fin Footer */
+    .header-img2 {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+
+    .header-desplegable-1 {
+        margin-right: 0px;
+    }
+
+    .header-dp-content-1 {
+        transform: translate(74%, -13%);
+    }
+
+    .header-dp-content-1 a {
+        padding-left: 10px;
+    }
+
+    .header-desplegable-2 {
+        margin-left: 0px;
+    }
+
+    .header-desplegable-3 {
+        margin-right: 0px;
+    }
+
+    .header-dp-content-3 {
+        transform: translate(59%, -10%);
+    }
+
+    .header-desplegable-4 {
+        margin-left: 0px;
+    }
+}
+
+/* Fin Header */
+
+/* Lo mas vendido */
+
+@media only screen and (max-width: 450px) {
+    .container-2 {
+        flex-direction: row;
+        justify-content: normal;
+        padding-left: 20px;
+        transform: translate(0%, 0%);
+    }
+
+    .lo-mas-vendido {
+        margin-bottom: 20px;
+    }
+
+    .lo-mas-vendido span {
+        padding-left: 50px;
+    }
+
+    .tarjeta-horizontal {
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+    .tarjetas-vertical {
+        flex-direction: column;
+    }
+
+    .tarjetav-1 {
+        margin-bottom: 10px;
+    }
+
+    .tarjetav-2 {
+        margin-bottom: 10px;
+    }
+
+    .tj-foto {
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+}
+
+/* Fin Lo mas vendido */
+
+/* Footer */
+
+@media only screen and (max-width: 450px) {
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .footer-texto1 {
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .footer-RRSS {
+        padding-top: 10px;
+    }
+}
+
+/* Fin Footer */
