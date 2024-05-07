@@ -1,9 +1,9 @@
 /* Inicio de cabecera */
-body {
+body{
     margin: 0px;
 }
 
-header {
+header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,7 +11,7 @@ header {
     padding: 10px;
 }
 
-.header-texto {
+.header-texto{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,7 +19,7 @@ header {
     padding: 10px;
 }
 
-header img {
+header img{
     display: flex;
     align-items: start;
     max-width: 70px;
@@ -28,7 +28,7 @@ header img {
 
 }
 
-.header-logo {
+.header-logo{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,18 +38,18 @@ header img {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header-logo img {
+.header-logo img{
     display: flex;
     max-width: 65px;
     margin: 0px;
     padding: 0px;
 }
 
-.header-logo a {
+.header-logo a{
     margin: 0px;
 }
 
-.header-desplegable-3 {
+.header-desplegable-3{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -59,19 +59,18 @@ header img {
     margin-right: 80px;
 }
 
-.header-desplegable-3 .despbtn-3 {
+.header-desplegable-3 .despbtn-3{
     font-size: 25px;
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
-    /* Important for vertical align on mobile phones */
+    font-family: inherit; /* Important for vertical align on mobile phones */
     /*margin: 0;  Important for vertical align on mobile phones */
 }
 
-.header-desplegable-3:hover .despbtn-3 {
+.header-desplegable-3:hover .despbtn-3{
     background-color: red;
 }
 
@@ -82,11 +81,11 @@ header img {
     background-color: white;
     font-size: 20px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
+  }
 
-.header-dp-content-3 a {
+.header-dp-content-3 a{
     float: none;
     color: black;
     padding: 12px 16px;
@@ -97,13 +96,13 @@ header img {
 
 .header-dp-content-3 a:hover {
     background-color: gray;
-}
+  }
 
 .header-desplegable-3:hover .header-dp-content-3 {
     display: block;
-}
+  }
 
-.header-desplegable-1 {
+.header-desplegable-1{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -113,19 +112,18 @@ header img {
     margin-right: 80px;
 }
 
-.header-desplegable-1 .despbtn-1 {
+.header-desplegable-1 .despbtn-1{
     font-size: 25px;
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
-    /* Important for vertical align on mobile phones */
+    font-family: inherit; /* Important for vertical align on mobile phones */
     /*margin: 0;  Important for vertical align on mobile phones */
 }
 
-.header-desplegable-1:hover .despbtn-1 {
+.header-desplegable-1:hover .despbtn-1{
     background-color: red;
 }
 
@@ -136,11 +134,11 @@ header img {
     background-color: white;
     font-size: 20px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
+  }
 
-.header-dp-content-1 a {
+.header-dp-content-1 a{
     float: none;
     color: black;
     padding: 12px 16px;
@@ -151,13 +149,13 @@ header img {
 
 .header-dp-content-1 a:hover {
     background-color: gray;
-}
+  }
 
 .header-desplegable-1:hover .header-dp-content-1 {
     display: block;
-}
+  }
 
-.header-desplegable-2 {
+  .header-desplegable-2{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -167,20 +165,18 @@ header img {
     margin-left: 80px;
 }
 
-.header-desplegable-2 .despbtn-2 {
+.header-desplegable-2 .despbtn-2{
     font-size: 25px;
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
-    /* Important for vertical align on mobile phones */
-    margin: 0;
-    /* Important for vertical align on mobile phones */
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
 }
 
-.header-desplegable-2:hover .despbtn-2 {
+.header-desplegable-2:hover .despbtn-2{
     background-color: red;
 }
 
@@ -191,11 +187,11 @@ header img {
     background-color: white;
     font-size: 20px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
+  }
 
-.header-dp-content-2 a {
+.header-dp-content-2 a{
     float: none;
     color: black;
     padding: 12px 16px;
@@ -206,13 +202,13 @@ header img {
 
 .header-dp-content-2 a:hover {
     background-color: gray;
-}
+  }
 
 .header-desplegable-2:hover .header-dp-content-2 {
     display: block;
-}
+  }
 
-.header-desplegable-4 {
+.header-desplegable-4{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -222,20 +218,18 @@ header img {
     margin-left: 80px;
 }
 
-.header-desplegable-4 .despbtn-4 {
+.header-desplegable-4 .despbtn-4{
     font-size: 25px;
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
-    /* Important for vertical align on mobile phones */
-    margin: 0;
-    /* Important for vertical align on mobile phones */
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
 }
 
-.header-desplegable-4:hover .despbtn-4 {
+.header-desplegable-4:hover .despbtn-4{
     background-color: red;
 }
 
@@ -246,11 +240,11 @@ header img {
     background-color: white;
     font-size: 20px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
+  }
 
-.header-dp-content-4 a {
+.header-dp-content-4 a{
     float: none;
     color: black;
     padding: 12px 16px;
@@ -261,31 +255,115 @@ header img {
 
 .header-dp-content-4 a:hover {
     background-color: gray;
-}
+  }
 
 .header-desplegable-4:hover .header-dp-content-4 {
     display: block;
-}
-
+  }
 /* Fin de cabecera */
 
-.container {
+.container{
     background-image: url(./img/Default_cocinero_con_uniforme_negro_sobre_fondo_negro_1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.container-2 {
+.container-2{
     display: flex;
     justify-content: center;
-    transform: translate(10%, -38%);
+    margin: 0 auto;
     max-width: 1600px;
     background-color: rgba(0, 0, 0, 0.247);
 }
 
+/* Inicio WWU */
+.WWU1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+.WWU1 img {
+    width: 29%;
+}
+
+.textWWU{
+    color: white;
+    font-size: larger;
+    width: 60%;
+    line-height: 1.5;
+    text-align: justify;
+}
+.WWU2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.WWU2 form {
+    max-width: 45%;
+}
+.texFormulario{
+    color: white;
+    font-size: larger;
+    width: 50%;
+}
+.texFormulario p{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.formu{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.txreq{
+    font-size: 120%;
+    font-weight: bold;
+}
+.formu input[type="text"],
+.formu input[type="tel"],
+.formu input[type="email"] {
+    width: 120%;
+    padding: 8%;
+    margin-bottom: 15%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.formu input[type="file"]{
+    margin-bottom: 15%;
+    width: 108%;
+    border-radius: 5px;
+    color: black;
+    padding: 6%;
+    background-color:white;
+}
+
+.formu input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 120%;
+}
+
+.formu input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/* Final WWU */
 /* Inicio Footer */
 
-footer {
+footer{
     padding: 10px;
     display: flex;
     align-items: center;
@@ -294,60 +372,118 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 450px) {
-    footer {
-        flex-direction: column;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .footer-texto1 {
-        padding-bottom: 15px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .footer-RRSS {
-        padding-top: 10px;
-    }
-}
-
-.footer-texto1 {
+.footer-texto1{
     display: flex;
     color: white;
     padding-left: 10px;
 }
 
-.footer-texto1 p {
+.footer-texto1 p{
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.footer-texto1 p::after {
+.footer-texto1 p::after{
     content: "/";
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.footer-texto2 a {
+.footer-texto2 a{
     text-decoration: none;
     color: white;
 }
 
-.footer-texto2 a::after {
+.footer-texto2 a::after{
     content: "/";
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.footer-RRSS {
+.footer-RRSS{
     display: flex;
-    filter: invert(1);
 }
 
-.footer-RRSS img {
+.footer-RRSS img{
     max-width: 40px;
     padding: 10px;
 }
 
 /* Final Footer */
+
+
+/* ------------------------- RESPONSIVE ------------------------- */
+
+/* Header */
+
+@media only screen and (max-width: 450px) {
+    header {
+        flex-direction: row;
+    }
+
+    .header-texto {
+        flex-direction: column;
+    }
+
+    .header-logo {
+        padding-bottom: 10px;
+        min-width: 199px;
+    }
+
+    .header-img1 {
+        margin-right: 10px;
+    }
+
+    .header-img2 {
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+
+    .header-desplegable-1 {
+        margin-right: 0px;
+    }
+
+    .header-dp-content-1 {
+        transform: translate(74%, -13%);
+    }
+
+    .header-dp-content-1 a {
+        padding-left: 10px;
+    }
+
+    .header-desplegable-2 {
+        margin-left: 0px;
+    }
+
+    .header-desplegable-3 {
+        margin-right: 0px;
+    }
+
+    .header-dp-content-3 {
+        transform: translate(59%, -10%);
+    }
+
+    .header-desplegable-4 {
+        margin-left: 0px;
+    }
+}
+
+/* Fin Header */
+
+/* Footer */
+
+@media only screen and (max-width: 450px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-texto1 {
+        padding-bottom: 15px;
+    }
+
+    .footer-RRSS {
+        padding-top: 10px;
+    }
+}
+
+/* Fin Footer */

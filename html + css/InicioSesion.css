@@ -1,20 +1,17 @@
 /* Inicio de cabecera */
-body {
+body{
     margin: 0px;
 }
 
-header {
+header{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(0, 0, 0);
     padding: 10px;
 }
 
-
-
-.header-texto {
+.header-texto{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,23 +19,16 @@ header {
     padding: 10px;
 }
 
-header img {
+header img{
     display: flex;
     align-items: start;
     max-width: 70px;
-}
-
-.header-img1 {
     margin-left: 15px;
     margin-right: 15px;
+
 }
 
-.header-img2 {
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.header-logo {
+.header-logo{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,38 +38,39 @@ header img {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header-logo img {
+.header-logo img{
     display: flex;
     max-width: 65px;
     margin: 0px;
     padding: 0px;
 }
 
-.header-logo a {
+.header-logo a{
     margin: 0px;
 }
 
-.header-desplegable-3 {
+.header-desplegable-3{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     color: white;
+    float: left;
+    overflow: hidden;
     margin-right: 80px;
 }
 
-.header-desplegable-3 .despbtn-3 {
+.header-desplegable-3 .despbtn-3{
     font-size: 25px;
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
-    /* Important for vertical align on mobile phones */
-    /*margin: 0;*/
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    /*margin: 0;  Important for vertical align on mobile phones */
 }
 
-.header-desplegable-3:hover .despbtn-3 {
+.header-desplegable-3:hover .despbtn-3{
     background-color: red;
 }
 
@@ -90,11 +81,11 @@ header img {
     background-color: white;
     font-size: 20px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
+  }
 
-.header-dp-content-3 a {
+.header-dp-content-3 a{
     float: none;
     color: black;
     padding: 12px 16px;
@@ -105,13 +96,13 @@ header img {
 
 .header-dp-content-3 a:hover {
     background-color: gray;
-}
+  }
 
 .header-desplegable-3:hover .header-dp-content-3 {
     display: block;
-}
+  }
 
-.header-desplegable-1 {
+.header-desplegable-1{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -121,19 +112,18 @@ header img {
     margin-right: 80px;
 }
 
-.header-desplegable-1 .despbtn-1 {
+.header-desplegable-1 .despbtn-1{
     font-size: 25px;
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
-    /* Important for vertical align on mobile phones */
-    margin: 0;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    /*margin: 0;  Important for vertical align on mobile phones */
 }
 
-.header-desplegable-1:hover .despbtn-1 {
+.header-desplegable-1:hover .despbtn-1{
     background-color: red;
 }
 
@@ -144,11 +134,11 @@ header img {
     background-color: white;
     font-size: 20px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
+  }
 
-.header-dp-content-1 a {
+.header-dp-content-1 a{
     float: none;
     color: black;
     padding: 12px 16px;
@@ -159,13 +149,13 @@ header img {
 
 .header-dp-content-1 a:hover {
     background-color: gray;
-}
+  }
 
 .header-desplegable-1:hover .header-dp-content-1 {
     display: block;
-}
+  }
 
-.header-desplegable-2 {
+  .header-desplegable-2{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -175,19 +165,18 @@ header img {
     margin-left: 80px;
 }
 
-.header-desplegable-2 .despbtn-2 {
+.header-desplegable-2 .despbtn-2{
     font-size: 25px;
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
-    /* Important for vertical align on mobile phones */
-    margin: 0;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
 }
 
-.header-desplegable-2:hover .despbtn-2 {
+.header-desplegable-2:hover .despbtn-2{
     background-color: red;
 }
 
@@ -198,11 +187,11 @@ header img {
     background-color: white;
     font-size: 20px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
+  }
 
-.header-dp-content-2 a {
+.header-dp-content-2 a{
     float: none;
     color: black;
     padding: 12px 16px;
@@ -213,13 +202,13 @@ header img {
 
 .header-dp-content-2 a:hover {
     background-color: gray;
-}
+  }
 
 .header-desplegable-2:hover .header-dp-content-2 {
     display: block;
-}
+  }
 
-.header-desplegable-4 {
+.header-desplegable-4{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -229,19 +218,18 @@ header img {
     margin-left: 80px;
 }
 
-.header-desplegable-4 .despbtn-4 {
+.header-desplegable-4 .despbtn-4{
     font-size: 25px;
     border: none;
     outline: none;
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
-    /* Important for vertical align on mobile phones */
-    margin: 0;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
 }
 
-.header-desplegable-4:hover .despbtn-4 {
+.header-desplegable-4:hover .despbtn-4{
     background-color: red;
 }
 
@@ -252,11 +240,11 @@ header img {
     background-color: white;
     font-size: 20px;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
+  }
 
-.header-dp-content-4 a {
+.header-dp-content-4 a{
     float: none;
     color: black;
     padding: 12px 16px;
@@ -267,198 +255,39 @@ header img {
 
 .header-dp-content-4 a:hover {
     background-color: gray;
-}
+  }
 
 .header-desplegable-4:hover .header-dp-content-4 {
     display: block;
-}
-
+  }
 /* Fin de cabecera */
 
-.container {
+
+
+
+.container{
     background-image: url(./img/Default_cocinero_con_uniforme_negro_sobre_fondo_negro_1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.container-2 {
+.container-2{
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    justify-content: space-around;
+    transform: translate(10%, 0%);
     max-width: 1600px;
     background-color: rgba(0, 0, 0, 0.247);
-}
-
-/* Inicio Lo mas Vendido */
-
-.lo-mas-vendido {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
     padding-top: 45px;
-    margin-bottom: 10px;
 }
 
-.lo-mas-vendido span {
-    font-size: 60px;
-}
 
-.tarjeta-horizontal {
-    display: flex;
-    background-color: rgba(169, 169, 169, 0.377);
-    padding: 13px;
-    margin-top: 35px;
-    margin-bottom: 35px;
-}
 
-.tj-foto {
-    display: flex;
-    align-items: center;
-}
 
-.tj-foto img {
-    max-width: 180px;
-    background-color: black;
-}
 
-.tj-texto {
-    max-width: 910px;
-    padding-left: 25px;
-    padding-right: 70px;
-}
-
-.tj-texto a {
-    font-size: 30px;
-}
-
-.tj-texto p {
-    font-size: 20px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    line-height: 1.5;
-
-}
-
-.tj-texto-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.tj-texto-2 span {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-
-.tj-texto-2 button {
-    max-width: 110px;
-    padding: 10px;
-    font-size: 17px;
-}
-
-.tarjetas-vertical {
-    display: flex;
-}
-
-.tarjetav-1 {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(169, 169, 169, 0.377);
-    margin-right: 20px;
-    padding-top: 10px;
-}
-
-.tarjetav-2 {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(169, 169, 169, 0.377);
-    margin-right: 20px;
-    padding-top: 10px;
-}
-
-.tarjetav-3 {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(169, 169, 169, 0.377);
-    padding-top: 10px;
-}
-
-.tjv-foto {
-    display: flex;
-    justify-content: center;
-}
-
-.tjv-foto img {
-    max-width: 180px;
-    background-color: black;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-}
-
-.tjv-foto3 {
-    display: flex;
-    justify-content: center;
-}
-
-.tjv-foto3 img {
-    max-width: 235px;
-    background-color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.tjv-texto {
-    max-width: 320px;
-    padding-left: 25px;
-    padding-right: 20px;
-    margin-bottom: 15px;
-}
-
-.tjv-texto a {
-    display: flex;
-    justify-content: center;
-    font-size: 29px;
-    margin-top: 20px;
-}
-
-.tjv-texto p {
-    font-size: 19px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    line-height: 1.5;
-}
-
-.tjv-texto2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 15px;
-}
-
-.tjv-texto2 span {
-    font-size: 20px;
-    margin-right: 25px;
-}
-
-.tjv-texto2 button {
-    max-width: 110px;
-    padding: 10px;
-    font-size: 17px;
-}
-
-/* Fin Lo mas Vendido */
 
 /* Inicio Footer */
 
-footer {
+footer{
     padding: 10px;
     display: flex;
     align-items: center;
@@ -467,41 +296,44 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer-texto1 {
+.footer-texto1{
     display: flex;
     color: white;
     padding-left: 10px;
 }
 
-.footer-texto1 p {
+.footer-texto1 p{
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.footer-texto1 p::after {
+.footer-texto1 p::after{
     content: "/";
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.footer-texto2 a {
+.footer-texto2 a{
     text-decoration: none;
     color: white;
 }
 
-.footer-texto2 a::after {
+.footer-texto2 a::after{
     content: "/";
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.footer-RRSS {
+.footer-RRSS{
     display: flex;
-    filter: invert(1);
 }
 
-.footer-RRSS img {
+.footer-RRSS img{
     max-width: 40px;
     padding: 10px;
 }
+
+/* Final Footer */
 
 
 /* ------------------------- RESPONSIVE ------------------------- */
@@ -561,49 +393,6 @@ footer {
 }
 
 /* Fin Header */
-
-/* Lo mas vendido */
-
-@media only screen and (max-width: 450px) {
-    .container-2 {
-        flex-direction: row;
-        justify-content: normal;
-        padding-left: 20px;
-        transform: translate(0%, 0%);
-    }
-
-    .lo-mas-vendido {
-        margin-bottom: 20px;
-    }
-
-    .lo-mas-vendido span {
-        padding-left: 50px;
-    }
-
-    .tarjeta-horizontal {
-        flex-direction: column;
-        margin-right: 20px;
-    }
-
-    .tarjetas-vertical {
-        flex-direction: column;
-    }
-
-    .tarjetav-1 {
-        margin-bottom: 10px;
-    }
-
-    .tarjetav-2 {
-        margin-bottom: 10px;
-    }
-
-    .tj-foto {
-        justify-content: center;
-        padding-bottom: 10px;
-    }
-}
-
-/* Fin Lo mas vendido */
 
 /* Footer */
 
