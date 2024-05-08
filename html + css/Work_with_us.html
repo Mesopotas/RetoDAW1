@@ -116,7 +116,13 @@
               <input type="text" name="nombre_apellido" placeholder="Nombre y Apellidos" required>
               <input type="tel" name="telefono" placeholder="Teléfono" required>
               <input type="email" name="correo" placeholder="Correo electrónico" required>
-              <input type="file" name="cv" required>
+              <div class="containerCV">
+                <input type="file" name="CV" id="CV" class="inputCV"
+                  data-multiple-caption="{count} archivos seleccionados" multiple />
+                <label for="CV">
+                  <span class="textBotonCV">Sube tu CV</span>
+                </label>
+              </div>
               <input type="submit" value="Enviar">
             </form>
           </div>
