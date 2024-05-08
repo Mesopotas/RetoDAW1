@@ -273,7 +273,7 @@ header img{
     justify-content: center;
     margin: 0 auto;
     max-width: 1600px;
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(0, 0, 0, 0.527);
 }
 
 /* Inicio WWU */
@@ -302,7 +302,7 @@ header img{
     padding-left: 5%;
     padding-bottom: 5%;
     padding-right: 5%;
-
+    margin-right: 5%;
 }
 
 .WWU2 form {
@@ -330,7 +330,7 @@ header img{
 .formu input[type="text"],
 .formu input[type="tel"],
 .formu input[type="email"] {
-    width: 120%;
+    width: 140%;
     padding: 8%;
     margin-bottom: 15%;
     border: 1px solid #ccc;
@@ -360,7 +360,7 @@ header img{
     justify-content: center;
     padding-bottom: 10%;
     width: 140%;
-    background-color: #242424;
+    height: 80%;
 }
 .inputCV {
     width: 1%;
@@ -387,6 +387,7 @@ header img{
     border: 2px solid currentColor;
     width: 200%;
     text-align: center;
+    background-color: #242424;
 }
 
 .inputCV:focus + label,
