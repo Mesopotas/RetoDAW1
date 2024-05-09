@@ -273,6 +273,8 @@ header img {
   background-image: url(./img/Default_cocinero_con_uniforme_negro_sobre_fondo_negro_1.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-bottom: 50px;
+  padding-top: 100px;
 }
 
 .container-2 {
@@ -336,7 +338,7 @@ html {
 }
 
 .title {
-  color: grey;
+  color: rgb(17, 16, 16);
 }
 
 .button {
@@ -365,6 +367,8 @@ html {
 /* Fin About us */
 
 /* Inicio Footer */
+
+
 
 footer {
   padding: 10px;
