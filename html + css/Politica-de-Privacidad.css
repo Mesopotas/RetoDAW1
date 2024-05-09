@@ -276,6 +276,22 @@ header img{
     background-color: rgba(0, 0, 0, 0.247);
 }
 
+/*Inicio de aviso legal*/
+.PoliticaPrivacidad {
+    background-color: #0000004b;
+    color: rgb(255, 255, 255);
+    border: 50px solid #00000000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.PoliticaPrivacidad h1 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+
 
 /* Inicio Footer */
 
