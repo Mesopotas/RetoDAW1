@@ -485,6 +485,45 @@ footer {
 
 /* Fin Header */
 
+/* Menu */
+
+@media only screen and (max-width: 450px) {
+    .menus p {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .tarjeta-horizontal {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .tj-foto {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .tj-texto {
+        padding-bottom: 10px;
+    }
+
+    .tj-texto a {
+        display: flex;
+    }
+
+    .tj-texto-2 {
+        flex-direction: row;
+    }
+
+    .tj-texto-2 span {
+        align-items: center;
+        padding-bottom: 0px;
+        padding-right: 40px;
+    }
+}
+
+/* Fin Menu */
+
 /* Footer */
 
 @media only screen and (max-width: 450px) {
