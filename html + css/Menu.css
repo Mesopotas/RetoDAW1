@@ -410,8 +410,6 @@ footer {
 
 .footer-texto2 a::after {
     content: "/";
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 .footer-RRSS {

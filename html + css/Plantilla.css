@@ -273,7 +273,7 @@ header img{
     justify-content: center;
     margin: 0 auto;
     max-width: 1600px;
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgba(0, 0, 0, 0.247);
 }
 
 
@@ -312,12 +312,11 @@ footer{
 
 .footer-texto2 a::after{
     content: "/";
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 .footer-RRSS{
     display: flex;
+    filter: invert(1);
 }
 
 .footer-RRSS img{

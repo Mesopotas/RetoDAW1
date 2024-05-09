@@ -379,24 +379,6 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 450px) {
-  footer {
-      flex-direction: column;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .footer-texto1 {
-      padding-bottom: 15px;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .footer-RRSS {
-      padding-top: 10px;
-  }
-}
-
 .footer-texto1 {
   display: flex;
   color: white;
@@ -421,8 +403,6 @@ footer {
 
 .footer-texto2 a::after {
   content: "/";
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 .footer-RRSS {
@@ -431,7 +411,7 @@ footer {
 }
 
 .footer-RRSS img {
-  max-width: 40px;
+  max-width: 60px;
   padding: 10px;
 }
 
