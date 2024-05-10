@@ -325,16 +325,20 @@ header img {
     font-size: 120%;
 }
 
-.botoncarro button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
+.botoncarro {
+    background-color: rgb(19, 19, 19);
     color: white;
-    background-color: #000;
-    text-align: center;
+    border: 2%;
+    border-color: white;
+    padding: 10px 20px;
+    font-size: 14px;
     cursor: pointer;
-    width: 100%;
+    border-radius: 9px;
+    transition: all 0.3s ease;
+}
+.botoncarro:hover{
+    box-shadow: 0 0 10px rgba(211, 211, 211, 0.781);
+    background-color: black;
 }
 
 /* Inicio Footer */
