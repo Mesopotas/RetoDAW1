@@ -476,6 +476,24 @@ footer {
 
 /* Fin Header */
 
+/* About us */
+
+@media only screen and (max-width: 450px) {
+  .container {
+    padding-top: 50px;
+  }
+  
+  .container-2 {
+    flex-direction: column;
+  }
+
+  .container-targetas {
+    padding: 0px 13px;
+  }
+  }
+
+/* Fin About us */
+
 /* Footer */
 
 @media only screen and (max-width: 450px) {
