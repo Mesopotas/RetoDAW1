@@ -450,6 +450,26 @@ footer {
 
 /* Fin Header */
 
+/* Drinks */
+
+@media only screen and (max-width: 450px) {
+    .container {
+        background-repeat: repeat-y;
+    }
+
+    .drinkEstan {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0px;
+    }
+
+    .producto {
+        margin-bottom: 10px;
+    }
+}
+
+/* Fin Drinks */
+
 /* Footer */
 
 @media only screen and (max-width: 450px) {
