@@ -401,6 +401,19 @@ footer{
 
 /* Fin Header */
 
+/* Politica de Privacidad */
+
+@media only screen and (max-width: 450px) {
+    .PoliticaPrivacidad {
+        width: 310px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border: 35px solid #00000000;
+    }
+}
+
+/* Fin Politica de Privacidad */
+
 /* Footer */
 
 @media only screen and (max-width: 450px) {
