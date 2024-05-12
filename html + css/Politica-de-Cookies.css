@@ -278,7 +278,7 @@ header img{
 
 /*Inicio de Politica de coockies*/
 
-.PoliticaCoockies {
+.PoliticaCookies {
     background-color: #0000004b;
     color: rgb(255, 230, 0);
     border: 50px solid #00000000;
@@ -287,7 +287,7 @@ header img{
     margin-left: 350px;
     margin-right: 350px;
 }
-.PoliticaCoockies h1 {
+.PoliticaCookies h1 {
     margin-top: 0;
     color: #ffffff;
 }
@@ -401,6 +401,19 @@ footer{
 }
 
 /* Fin Header */
+
+/* Politica de Cookies */
+
+@media only screen and (max-width: 450px) {
+    .PoliticaCookies {
+        width: 310px;
+        margin-left: 0px;
+        margin-right: 0px;
+        border: 35px solid #00000000;
+    }
+}
+
+/* Fin Politica de Cookies */
 
 /* Footer */
 
