@@ -331,6 +331,7 @@ footer{
 
 .footer-RRSS{
     display: flex;
+    filter: invert(1);
 }
 
 .footer-RRSS img{
