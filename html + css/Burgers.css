@@ -456,6 +456,22 @@ footer {
 
 /* Fin Header */
 
+/* Burgers */
+
+@media only screen and (max-width: 450px) {
+    .hamEstan {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0px;
+    }
+
+    .producto {
+        margin-bottom: 10px;
+    }
+}
+
+/* Fin Burgers */
+
 /* Footer */
 
 @media only screen and (max-width: 450px) {
