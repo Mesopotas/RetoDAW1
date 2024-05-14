@@ -6,6 +6,7 @@
   <meta name="description" content="Pagina-Web">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="home.css">
+  <script src="./js/Carrito.js"></script>
   <title>Krosse Krabbe</title>
 </head>
 
@@ -64,27 +65,45 @@
     <a href="./Carrito.html" class="header-img2">
       <img src="./img/carrito02.png" alt="Carrito">
     </a>
+    <div class="Carrito" id="carrito">
+      <table id="lista-carrito"> 
+        <thead>
+          <tr>
+            <th>Imagen </th>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+      <a href="#" id="vaciar-carrito"> Vaciar Carrito </a>
+    </div>
   </header>
   <!-- Fin de Header -->
   <!-- Inicio Lo mas Vendido -->
   <div class="container">
     <div class="container-2">
-      <div class="lo-mas-vendido">
+      <div id="mas-vendido" class="lo-mas-vendido">
         <span> THE MOST SOLD </span>
         <div class="tarjeta-horizontal">
           <div class="tj-foto">
             <img src="./img/hamburgesa-top.png" alt="hamburgesa-top">
           </div>
           <div class="tj-texto">
-            <a>Double Cheese Explosion Burger</a>
+            <span>Double Cheese Explosion Burger</span>
             <p>Our Double Cheese Explosion Burger offers a unique culinary experience with two juicy beef patties
               nestled between layers of melted cheddar and Swiss cheese, complemented by a crispy layer of cheddar
               on top of the meat,creating a creamy flavor explosionand irresistible texture in every bite.
             </p>
           </div>
           <div class="tj-texto-2">
-            <span>Price: 20€</span>
-            <button>Add to cart</button>
+            <span>20€</span>
+            <a href="#" class="btn-carrito" data-id="1">
+              <button class="Agregar-carrito">Add to cart</button>
+            </a>
           </div>
         </div>
         <div class="tarjetas-vertical">
@@ -100,7 +119,7 @@
               </p>
             </div>
             <div class="tjv-texto2">
-              <span>Price: 22€</span>
+              <span>22€</span>
               <button>Add to cart</button>
             </div>
           </div>
@@ -115,7 +134,7 @@
               </p>
             </div>
             <div class="tjv-texto2">
-              <span>Price: 18€</span>
+              <span>18€</span>
               <button>Add to cart</button>
             </div>
           </div>
@@ -129,7 +148,7 @@
                 melted cheese, and a special mushroom sauce on a toasted artisan bun, offering a flavorful and satisfying experience.</p>
             </div>
             <div class="tjv-texto2">
-              <span>Price: 23€</span>
+              <span>23€</span>
               <button>Add to cart</button>
             </div>
           </div>
