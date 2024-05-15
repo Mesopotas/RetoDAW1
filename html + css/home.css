@@ -274,25 +274,22 @@ header img {
 }
 
 .Carrito {
-    display: none0;
+    display: none;
     background-color: white;
-    padding-top: 5px;
+    padding-top: 7px;
     padding-bottom: 25px;
-    padding-left: 7px;
+    padding-left: 10px;
     padding-right: 5px;
     position: absolute;
-    transform: translate(445%, 85%);
+    right: 0;
+    top: 100px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
 }
 
 .Carrito thead {
     display: block;
     padding-bottom: 0px;
-}
-
-.Carrito thead tr::after {
-    content: for;
-    border: darkgray 1px solid;
 }
 
 .Carrito th {
@@ -308,7 +305,7 @@ header img {
 
 #Nombre {
     padding-left: 5px;
-    padding-right: 25px;
+    padding-right: 30px;
 }
 
 #vaciar-carrito {
@@ -333,7 +330,18 @@ header img {
 .Carrito tbody td {
     max-width: 75px;
     padding-bottom: 5px;
+    padding-right: 5px;
+
+}
+
+.Carrito tbody td img {
+    max-width: 65px;
     padding-right: 10px;
+}
+
+.Carrito tbody tr::after {
+    content: "";
+    border: 0px solid red;
 }
 
 .header-img2:hover .Carrito {
@@ -347,6 +355,7 @@ header img {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    margin-left: 37px;
 }
 
 /* Fin de cabecera */

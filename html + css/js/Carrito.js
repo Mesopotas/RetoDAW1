@@ -8,6 +8,10 @@ const masvendido = document.querySelector("#mas-vendido")
 cargarEventListeners();
 function cargarEventListeners() {
     masvendido.addEventListener("click", agregar_producto);
+
+    // Eliminar Producto del Carrito
+    carrito.addEventListener("click", eliminarProducto);
+
 }
 
 /*})*/
@@ -22,6 +26,15 @@ function agregar_producto(e) {
     }
 }
 
+function eliminarProducto(e) {
+    if(e.target.classList.contains('borrar-producto')) {
+        const productoId = e.target.getAttribute('data-id');
+
+
+
+    }
+}
+
 function leerDatosProducto(producto) {
     // Crear un objeto
     infoProduccto = {
@@ -32,8 +45,23 @@ function leerDatosProducto(producto) {
         cantidad: 1
     }
     
-    articuloCarrito = [...articuloCarrito, infoProduccto]
-    
+    const existe = articuloCarrito.some(producto => producto.id === infoProduccto.id);
+
+    if(existe) {
+        //Actualizamos la cantidad
+        const productos = articuloCarrito.map( producto => {
+            if(producto.id === infoProduccto.id) {
+                producto.cantidad++;
+                return producto;
+            } else {
+                return producto;
+            }
+        } );
+        articuloCarrito = [...productos]
+    } else {
+        articuloCarrito = [...articuloCarrito, infoProduccto]
+    }
+
     console.log(articuloCarrito);
 
     carritoHTML();
@@ -43,18 +71,18 @@ function carritoHTML() {
     limpiarHTML();
 
     articuloCarrito.forEach(producto => {
-        
+        const {imagen, titulo, precio, cantidad, id} = producto; 
         const row = document.createElement('tr');
 
         row.innerHTML = `
             <td>
-                <img src="${producto.imagen}"></img>
+                <img src="${imagen}" padding-right= "15px"></img>
             </td>
-            <td>${producto.titulo}</td>
-            <td>${producto.precio}</td>
-            <td>${producto.cantidad}</td>
+            <td width="78px">${titulo}</td>
+            <td width ="56px">${precio}</td>
+            <td>${cantidad}</td>
             <td>
-                <a href="#" class="borrar-curso"></a>
+                <a href="#" class="borrar-curso" data-id="${id}"> X </a>
             </td>
         `;
 
