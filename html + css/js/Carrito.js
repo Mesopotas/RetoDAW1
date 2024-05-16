@@ -12,6 +12,15 @@ function cargarEventListeners() {
     // Eliminar Producto del Carrito
     carrito.addEventListener("click", eliminarProducto);
 
+    // Vaciar el Carrito
+    vaciarCarritoBtn.addEventListener("click", () => {
+        
+        articuloCarrito = []; //Reseteamos el array
+
+        limpiarHTML();
+
+    })
+
 }
 
 /*})*/
@@ -27,10 +36,24 @@ function agregar_producto(e) {
 }
 
 function eliminarProducto(e) {
-    if(e.target.classList.contains('borrar-producto')) {
+    if(e.target.classList.contains('borrar-curso')){
         const productoId = e.target.getAttribute('data-id');
+        const existe = articuloCarrito.some(producto => (producto.id === productoId && producto.cantidad > 1));
 
+        if(existe) {
+            const productos = articuloCarrito.map(producto => {
+                if(producto.id === productoId) {
+                    producto.cantidad--; 
+                }
+                return producto;
+            });
+            articuloCarrito = [...productos];
 
+        } else {
+            articuloCarrito = articuloCarrito.filter(producto => producto.id !== productoId);
+        }
+
+        carritoHTML();
 
     }
 }
