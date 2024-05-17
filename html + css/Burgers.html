@@ -61,15 +61,33 @@
         </div>
       </div>
     </div>
-    <a href="./Carrito.html" class="header-img2">
-      <img src="./img/carrito02.png" alt="Carrito">
-    </a>
+    <div class="header-img2">
+      <a href="./Carrito.html">
+        <img src="./img/carrito02.png" alt="Carrito">
+      </a>
+      <div class="Carrito" id="carrito">
+        <table id="lista-carrito">
+          <thead>
+            <tr>
+              <th id="Imagen">Imagen </th>
+              <th id="Nombre">Nombre</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <a href="#" id="vaciar-carrito"> Vaciar Carrito </a>
+      </div>
+    </div>
   </header>
   <!-- Fin de Header -->
   <div class="container">
 
     <div class="container-2">
-      <div class="hamburguesas">
+      <div class="hamburguesas" id="burgers">
 
         <div class="hamEstan">
 
@@ -194,36 +212,37 @@
       </div>
     </div>
   </div>
- <!-- Inicio Footer -->
- <footer>
-  <div class="footer-texto1">
-    <p>Krosse Krabbe</p>
-    <p>Violeta Parra, 9 50015 Zaragoza</p>
-  </div>
-  <div class="footer-texto2">
-    <a href="./Aviso-Legal.html">
-      Aviso Legal
-    </a>
-    <a href="./Politica-de-Privacidad.hmtl">
-      Politica de Privacidad
-    </a>
-    <a href="./Politica-de-Cookies.html">
-      Politica de Cookies
-    </a>
-  </div>
-  <div class="footer-RRSS">
-    <a href="https://www.instagram.com/">
-      <img src="./img/instagram.png" alt="icono-instagram">
-    </a>
-    <a href="https://www.facebook.com/?locale=es_ES">
-      <img src="./img/facebook-icon.png" alt="icono-facebook">
-    </a>
-    <a href="https://es.linkedin.com/">
-      <img src="./img/linkedin.png" alt="icono-linkedin">
-    </a>
-  </div>
-</footer>
-<!-- Final Footer -->
+  <!-- Inicio Footer -->
+  <footer>
+    <div class="footer-texto1">
+      <p>Krosse Krabbe</p>
+      <p>Violeta Parra, 9 50015 Zaragoza</p>
+    </div>
+    <div class="footer-texto2">
+      <a href="./Aviso-Legal.html">
+        Aviso Legal
+      </a>
+      <a href="./Politica-de-Privacidad.hmtl">
+        Politica de Privacidad
+      </a>
+      <a href="./Politica-de-Cookies.html">
+        Politica de Cookies
+      </a>
+    </div>
+    <div class="footer-RRSS">
+      <a href="https://www.instagram.com/">
+        <img src="./img/instagram.png" alt="icono-instagram">
+      </a>
+      <a href="https://www.facebook.com/?locale=es_ES">
+        <img src="./img/facebook-icon.png" alt="icono-facebook">
+      </a>
+      <a href="https://es.linkedin.com/">
+        <img src="./img/linkedin.png" alt="icono-linkedin">
+      </a>
+    </div>
+  </footer>
+  <!-- Final Footer -->
 </body>
+<script src="./js/Carrito.js"></script>
 
 </html>
