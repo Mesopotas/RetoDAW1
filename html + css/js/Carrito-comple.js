@@ -3,11 +3,11 @@
 const carrito = document.querySelector("#carrito");
 const listaCarrito = document.querySelector("#lista-carrito tbody")
 const vaciarCarritoBtn = document.querySelector("#vaciar-carrito")
-const burgers = document.querySelector("#burgers")
+const complements = document.querySelector("#complements")
 
 cargarEventListeners();
 function cargarEventListeners() {
-    burgers.addEventListener("click", agregar_producto);
+    complements.addEventListener("click", agregar_producto);
 
     // Eliminar Producto del Carrito
     carrito.addEventListener("click", eliminarProducto);

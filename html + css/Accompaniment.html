@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accompaniment</title>
-    <link rel="stylesheet" href="./Accompaniment.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accompaniment</title>
+  <link rel="stylesheet" href="./Accompaniment.css">
 </head>
+
 <body>
   <!-- Inicio Header -->
   <header>
@@ -33,40 +35,58 @@
           <a href="./Drinks.html">Drinks</a>
         </div>
       </div>
-        <div class="header-logo">
-          <a href="./home.html">
+      <div class="header-logo">
+        <a href="./home.html">
           <img src="./img/logo-header.webp" alt="logo-header">
-          </a> 
-          Krosse Krabbe
+        </a>
+        Krosse Krabbe
+      </div>
+      <div class="header-desplegable-2">
+        <button class="despbtn-2">
+          Know us
+        </button>
+        <div class="header-dp-content-2">
+          <a href="./About_us.html">About us</a>
+          <a href="./Where_we_are.html">Where we are</a>
         </div>
-        <div class="header-desplegable-2">
-          <button class="despbtn-2">
-            Know us
-          </button>
-          <div class="header-dp-content-2">
-            <a href="./About_us.html">About us</a>
-            <a href="./Where_we_are.html">Where we are</a>
-          </div>
+      </div>
+      <div class="header-desplegable-4">
+        <button class="despbtn-4">
+          Work area
+        </button>
+        <div class="header-dp-content-4">
+          <a href="./Work_with_us.html">Work with us</a>
+          <a href="./Employe_Zone.html">Employe Zone</a>
         </div>
-        <div class="header-desplegable-4">
-          <button class="despbtn-4">
-            Work area
-          </button>
-          <div class="header-dp-content-4">
-            <a href="./Work_with_us.html">Work with us</a>
-            <a href="./Employe_Zone.html">Employe Zone</a>
-          </div>
-        </div>
+      </div>
     </div>
-    <a href="./Carrito.html" class="header-img2">
-      <img src="./img/carrito02.png" alt="Carrito">
-    </a>
+    <div class="header-img2">
+      <a href="./Carrito.html">
+        <img src="./img/carrito02.png" alt="Carrito">
+      </a>
+      <div class="Carrito" id="carrito">
+        <table id="lista-carrito">
+          <thead>
+            <tr>
+              <th id="Imagen">Imagen </th>
+              <th id="Nombre">Nombre</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <a href="#" id="vaciar-carrito"> Vaciar Carrito </a>
+      </div>
+    </div>
   </header>
   <!-- Fin de Header -->
   <div class="container">
 
     <div class="container-2">
-      <div class="comple">
+      <div class="comple" id="complements">
 
         <div class="comEstan">
 
@@ -83,9 +103,9 @@
                 <div class="precio">
                   <p>10 €</p>
                 </div>
-                <div class="contbotoncarro">
-                  <button class="botoncarro" href="#">Carrito</button>
-                </div>
+                <a href="#" data-id="1">
+                  <button class="botoncarro">Carrito</button>
+                </a>
               </div>
             </div>
           </div>
@@ -102,9 +122,9 @@
                 <div class="precio">
                   <p>10 €</p>
                 </div>
-                <div class="contbotoncarro">
-                  <button class="botoncarro" href="#">Carrito</button>
-                </div>
+                <a href="#" data-id="2">
+                  <button class="botoncarro">Carrito</button>
+                </a>
               </div>
             </div>
           </div>
@@ -121,9 +141,9 @@
                 <div class="precio">
                   <p>10 €</p>
                 </div>
-                <div class="contbotoncarro">
-                  <button class="botoncarro" href="#">Carrito</button>
-                </div>
+                <a href="#" data-id="3">
+                  <button class="botoncarro">Carrito</button>
+                </a>
               </div>
             </div>
           </div>
@@ -143,9 +163,9 @@
                 <div class="precio">
                   <p>10 €</p>
                 </div>
-                <div class="contbotoncarro">
-                  <button class="botoncarro" href="#">Carrito</button>
-                </div>
+                <a href="#" data-id="4">
+                  <button class="botoncarro">Carrito</button>
+                </a>
               </div>
             </div>
           </div>
@@ -162,9 +182,9 @@
                 <div class="precio">
                   <p>10 €</p>
                 </div>
-                <div class="contbotoncarro">
-                  <button class="botoncarro" href="#">Carrito</button>
-                </div>
+                <a href="#" data-id="5">
+                  <button class="botoncarro">Carrito</button>
+                </a>
               </div>
             </div>
           </div>
@@ -181,19 +201,19 @@
                 <div class="precio">
                   <p>10 €</p>
                 </div>
-                <div class="contbotoncarro">
-                  <button class="botoncarro" href="#">Carrito</button>
-                </div>
+                <a href="#" data-id="6">
+                  <button class="botoncarro">Carrito</button>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
+
     </div>
   </div>
-   <!-- Inicio Footer -->
-   <footer>
+  <!-- Inicio Footer -->
+  <footer>
     <div class="footer-texto1">
       <p>Krosse Krabbe</p>
       <p>Violeta Parra, 9 50015 Zaragoza</p>
@@ -223,4 +243,6 @@
   </footer>
   <!-- Final Footer -->
 </body>
+<script src="./js/Carrito-comple.js"></script>
+
 </html>
