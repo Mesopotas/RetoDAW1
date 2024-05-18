@@ -60,22 +60,40 @@
         </div>
       </div>
     </div>
-    <a href="./Carrito.html" class="header-img2">
-      <img src="./img/carrito02.png" alt="Carrito">
-    </a>
+    <div class="header-img2">
+      <a href="./Carrito.html">
+        <img src="./img/carrito02.png" alt="Carrito">
+      </a>
+      <div class="Carrito" id="carrito">
+        <table id="lista-carrito">
+          <thead>
+            <tr>
+              <th id="Imagen">Imagen </th>
+              <th id="Nombre">Nombre</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <a href="#" id="vaciar-carrito"> Vaciar Carrito </a>
+      </div>
+    </div>
   </header>
   <!-- Fin de Header -->
   <!-- Inicio Menu -->
   <div class="container">
     <div class="container-2">
-      <div class="menus">
+      <div class="menus" id="menus">
         <p>Menu Vegan</p>
         <div class="tarjeta-horizontal">
           <div class="tj-foto">
             <img src="./img/hamburguesa-fuego.png" alt="hamburgesa-top">
           </div>
           <div class="tj-texto">
-            <a>Double Cheese Explosion Burger</a>
+            <span>Double Cheese Explosion Burger</span>
             <p>Our Double Cheese Explosion Burger offers a unique culinary experience with two juicy beef patties
               nestled between layers of melted cheddar and Swiss cheese, complemented by a crispy layer of cheddar
               on top of the meat,creating a creamy flavor explosionand irresistible texture in every bite.
@@ -83,7 +101,9 @@
           </div>
           <div class="tj-texto-2">
             <span>Price: 20€</span>
-            <button>Add to cart</button>
+            <a href="#" class="btn-carrito" data-id="1">
+              <button class="Agregar-carrito">Add to cart</button>
+            </a>
           </div>
         </div>
         <div class="tarjeta-horizontal">
@@ -91,7 +111,7 @@
             <img src="./img/hamburguesa-champiñon.png" alt="hamburgesa-top">
           </div>
           <div class="tj-texto">
-            <a>Double Cheese Explosion Burger</a>
+            <span>Double Cheese Explosion Burger</span>
             <p>Our Double Cheese Explosion Burger offers a unique culinary experience with two juicy beef patties
               nestled between layers of melted cheddar and Swiss cheese, complemented by a crispy layer of cheddar
               on top of the meat,creating a creamy flavor explosionand irresistible texture in every bite.
@@ -99,7 +119,9 @@
           </div>
           <div class="tj-texto-2">
             <span>Price: 20€</span>
-            <button>Add to cart</button>
+            <a href="#" class="btn-carrito" data-id="2">
+              <button class="Agregar-carrito">Add to cart</button>
+            </a>
           </div>
         </div>
         <div class="tarjeta-horizontal">
@@ -107,7 +129,7 @@
             <img src="./img/hamburgesa-top.png" alt="hamburgesa-top">
           </div>
           <div class="tj-texto">
-            <a>Double Cheese Explosion Burger</a>
+            <span>Double Cheese Explosion Burger</span>
             <p>Our Double Cheese Explosion Burger offers a unique culinary experience with two juicy beef patties
               nestled between layers of melted cheddar and Swiss cheese, complemented by a crispy layer of cheddar
               on top of the meat,creating a creamy flavor explosionand irresistible texture in every bite.
@@ -115,7 +137,9 @@
           </div>
           <div class="tj-texto-2">
             <span>Price: 20€</span>
-            <button>Add to cart</button>
+            <a href="#" class="btn-carrito" data-id="3">
+              <button class="Agregar-carrito">Add to cart</button>
+            </a>
           </div>
         </div>
         <p>Menu Celiac</p>
@@ -124,7 +148,7 @@
             <img src="./img/hamburguesa-fuego.png" alt="hamburgesa-top">
           </div>
           <div class="tj-texto">
-            <a>Double Cheese Explosion Burger</a>
+            <span>Double Cheese Explosion Burger</span>
             <p>Our Double Cheese Explosion Burger offers a unique culinary experience with two juicy beef patties
               nestled between layers of melted cheddar and Swiss cheese, complemented by a crispy layer of cheddar
               on top of the meat,creating a creamy flavor explosionand irresistible texture in every bite.
@@ -132,7 +156,9 @@
           </div>
           <div class="tj-texto-2">
             <span>Price: 20€</span>
-            <button>Add to cart</button>
+            <a href="#" class="btn-carrito" data-id="4">
+              <button class="Agregar-carrito">Add to cart</button>
+            </a>
           </div>
         </div>
         <div class="tarjeta-horizontal">
@@ -140,7 +166,7 @@
             <img src="./img/hamburguesa-champiñon.png" alt="hamburgesa-top">
           </div>
           <div class="tj-texto">
-            <a>Double Cheese Explosion Burger</a>
+            <span>Double Cheese Explosion Burger</span>
             <p>Our Double Cheese Explosion Burger offers a unique culinary experience with two juicy beef patties
               nestled between layers of melted cheddar and Swiss cheese, complemented by a crispy layer of cheddar
               on top of the meat,creating a creamy flavor explosionand irresistible texture in every bite.
@@ -148,7 +174,9 @@
           </div>
           <div class="tj-texto-2">
             <span>Price: 20€</span>
-            <button>Add to cart</button>
+            <a href="#" class="btn-carrito" data-id="5">
+              <button class="Agregar-carrito">Add to cart</button>
+            </a>
           </div>
         </div>
         <div class="tarjeta-horizontal">
@@ -156,7 +184,7 @@
             <img src="./img/hamburgesa-top.png" alt="hamburgesa-top">
           </div>
           <div class="tj-texto">
-            <a>Double Cheese Explosion Burger</a>
+            <span>Double Cheese Explosion Burger</span>
             <p>Our Double Cheese Explosion Burger offers a unique culinary experience with two juicy beef patties
               nestled between layers of melted cheddar and Swiss cheese, complemented by a crispy layer of cheddar
               on top of the meat,creating a creamy flavor explosionand irresistible texture in every bite.
@@ -164,7 +192,9 @@
           </div>
           <div class="tj-texto-2">
             <span>Price: 20€</span>
-            <button>Add to cart</button>
+            <a href="#" class="btn-carrito" data-id="6">
+              <button class="Agregar-carrito">Add to cart</button>
+            </a>
           </div>
         </div>
 
@@ -174,7 +204,7 @@
             <img src="./img/hamburguesa-fuego.png" alt="hamburgesa-top">
           </div>
           <div class="tj-texto">
-            <a>Double Cheese Explosion Burger</a>
+            <span>Double Cheese Explosion Burger</span>
             <p>Our Double Cheese Explosion Burger offers a unique culinary experience with two juicy beef patties
               nestled between layers of melted cheddar and Swiss cheese, complemented by a crispy layer of cheddar
               on top of the meat,creating a creamy flavor explosionand irresistible texture in every bite.
@@ -182,7 +212,9 @@
           </div>
           <div class="tj-texto-2">
             <span>Price: 20€</span>
-            <button>Add to cart</button>
+            <a href="#" class="btn-carrito" data-id="7">
+              <button class="Agregar-carrito">Add to cart</button>
+            </a>
           </div>
         </div>
         <div class="tarjeta-horizontal">
@@ -190,7 +222,7 @@
             <img src="./img/hamburguesa-champiñon.png" alt="hamburgesa-top">
           </div>
           <div class="tj-texto">
-            <a>Double Cheese Explosion Burger</a>
+            <span>Double Cheese Explosion Burger</span>
             <p>Our Double Cheese Explosion Burger offers a unique culinary experience with two juicy beef patties
               nestled between layers of melted cheddar and Swiss cheese, complemented by a crispy layer of cheddar
               on top of the meat,creating a creamy flavor explosionand irresistible texture in every bite.
@@ -198,7 +230,9 @@
           </div>
           <div class="tj-texto-2">
             <span>Price: 20€</span>
-            <button>Add to cart</button>
+            <a href="#" class="btn-carrito" data-id="8">
+              <button class="Agregar-carrito">Add to cart</button>
+            </a>
           </div>
         </div>
         <div class="tarjeta-horizontal">
@@ -206,7 +240,7 @@
             <img src="./img/hamburgesa-top.png" alt="hamburgesa-top">
           </div>
           <div class="tj-texto">
-            <a>Double Cheese Explosion Burger</a>
+            <span>Double Cheese Explosion Burger</span>
             <p>Our Double Cheese Explosion Burger offers a unique culinary experience with two juicy beef patties
               nestled between layers of melted cheddar and Swiss cheese, complemented by a crispy layer of cheddar
               on top of the meat,creating a creamy flavor explosionand irresistible texture in every bite.
@@ -214,7 +248,9 @@
           </div>
           <div class="tj-texto-2">
             <span>Price: 20€</span>
-            <button>Add to cart</button>
+            <a href="#" class="btn-carrito" data-id="9">
+              <button class="Agregar-carrito">Add to cart</button>
+            </a>
           </div>
         </div>
       </div>
@@ -252,5 +288,6 @@
   </footer>
   <!-- Final Footer -->
 </body>
+<script src="./js/Carrito-menus.js"></script>
 
 </html>
