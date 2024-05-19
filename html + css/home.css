@@ -273,6 +273,91 @@ header img {
     display: block;
 }
 
+.Carrito {
+    display: none;
+    background-color: white;
+    padding-top: 7px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 5px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+}
+
+.Carrito thead {
+    display: block;
+    padding-bottom: 0px;
+}
+
+.Carrito th {
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#Imagen {
+    padding-right: 30px;
+}
+
+#Nombre {
+    padding-left: 5px;
+    padding-right: 30px;
+}
+
+#vaciar-carrito {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(111 111 111);
+    padding-top: 6px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    border: darkgray 1px solid;
+    font-size: 15px;
+}
+
+.Carrito tbody {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.Carrito tbody td {
+    max-width: 75px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+
+}
+
+.Carrito tbody td img {
+    max-width: 65px;
+    padding-right: 10px;
+}
+
+.Carrito tbody tr::after {
+    content: "";
+    border: 0px solid red;
+}
+
+.header-img2:hover .Carrito {
+    display: block;
+}
+
+.borrar-curso {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 37px;
+}
+
 /* Fin de cabecera */
 
 .container {
@@ -298,7 +383,7 @@ header img {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding-top: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .lo-mas-vendido span {
@@ -326,10 +411,10 @@ header img {
 .tj-texto {
     max-width: 910px;
     padding-left: 25px;
-    padding-right: 70px;
+    padding-right: 50px;
 }
 
-.tj-texto a {
+.tj-texto span {
     font-size: 30px;
 }
 
@@ -355,7 +440,7 @@ header img {
     padding-bottom: 20px;
 }
 
-.tj-texto-2 button {
+.Agregar-carrito {
     max-width: 110px;
     padding: 10px;
     font-size: 17px;
@@ -421,7 +506,7 @@ header img {
     margin-bottom: 15px;
 }
 
-.tjv-texto a {
+.tjv-texto span {
     display: flex;
     justify-content: center;
     font-size: 29px;

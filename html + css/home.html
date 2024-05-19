@@ -6,6 +6,7 @@
   <meta name="description" content="Pagina-Web">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="home.css">
+
   <title>Krosse Krabbe</title>
 </head>
 
@@ -61,30 +62,50 @@
         </div>
       </div>
     </div>
-    <a href="./Carrito.html" class="header-img2">
-      <img src="./img/carrito02.png" alt="Carrito">
-    </a>
+    <div class="header-img2">
+      <a href="./Carrito.html">
+        <img src="./img/carrito02.png" alt="Carrito">
+      </a>
+      <div class="Carrito" id="carrito">
+        <table id="lista-carrito">
+          <thead>
+            <tr>
+              <th id="Imagen">Imagen </th>
+              <th id="Nombre">Nombre</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <a href="#" id="vaciar-carrito"> Vaciar Carrito </a>
+      </div>
+    </div>
   </header>
   <!-- Fin de Header -->
   <!-- Inicio Lo mas Vendido -->
   <div class="container">
     <div class="container-2">
-      <div class="lo-mas-vendido">
+      <div id="mas-vendido" class="lo-mas-vendido">
         <span> THE MOST SOLD </span>
         <div class="tarjeta-horizontal">
           <div class="tj-foto">
             <img src="./img/hamburgesa-top.png" alt="hamburgesa-top">
           </div>
           <div class="tj-texto">
-            <a>Double Cheese Explosion Burger</a>
+            <span>Double Cheese Explosion Burger</span>
             <p>Our Double Cheese Explosion Burger offers a unique culinary experience with two juicy beef patties
               nestled between layers of melted cheddar and Swiss cheese, complemented by a crispy layer of cheddar
               on top of the meat,creating a creamy flavor explosionand irresistible texture in every bite.
             </p>
           </div>
           <div class="tj-texto-2">
-            <span>Price: 20€</span>
-            <button>Add to cart</button>
+            <span>20€</span>
+            <a href="#" class="btn-carrito" data-id="1">
+              <button class="Agregar-carrito">Add to cart</button>
+            </a>
           </div>
         </div>
         <div class="tarjetas-vertical">
@@ -93,15 +114,17 @@
               <img src="./img/hamburguesa-fuego.png" alt="hamburguesa-fuego">
             </div>
             <div class="tjv-texto">
-              <a>Inferno Fire Burger</a>
+              <span>Inferno Fire Burger</span>
               <p>The "Inferno Fire Burger" is a spicy flavor explosion that challenges your taste buds
                 with juicy beef seasoned with spicy spices, jalapeño and chipotle sauce, and
                 accompanied by crispy onion rings and fresh jalapeños, leaving you with a fiery satisfaction.
               </p>
             </div>
             <div class="tjv-texto2">
-              <span>Price: 22€</span>
-              <button>Add to cart</button>
+              <span>22€</span>
+              <a href="#" class="btn-carrito" data-id="2">
+                <button class="Agregar-carrito">Add to cart</button>
+              </a>
             </div>
           </div>
           <div class="tarjetav-2">
@@ -109,14 +132,18 @@
               <img src="./img/hamburguesa-fuego.png" alt="">
             </div>
             <div class="tjv-texto">
-              <a>Fantasy Meat Burger</a>
-              <p>The "Fantasy Meat Burger" is a gourmet masterpiece combining premium beef, smoked pork, and succulent lamb, topped with 
-                crispy bacon, melted cheddar, and special sauce on a toasted artisan bun, offering a tantalizing experience. for meat enthusiasts.
+              <span>Fantasy Meat Burger</span>
+              <p>The "Fantasy Meat Burger" is a gourmet masterpiece combining premium beef, smoked pork, and succulent
+                lamb, topped with
+                crispy bacon, melted cheddar, and special sauce on a toasted artisan bun, offering a tantalizing
+                experience. for meat enthusiasts.
               </p>
             </div>
             <div class="tjv-texto2">
-              <span>Price: 18€</span>
-              <button>Add to cart</button>
+              <span>18€</span>
+              <a href="#" class="btn-carrito" data-id="3">
+                <button class="Agregar-carrito">Add to cart</button>
+              </a>
             </div>
           </div>
           <div class="tarjetav-3">
@@ -124,13 +151,17 @@
               <img src="./img/hamburguesa-champiñon.png" alt="">
             </div>
             <div class="tjv-texto">
-              <a>Magic Mushroom Burger</a>
-              <p>The "Magic Mushroom Burger" features a juicy beef or vegan portobello mushroom patty seasoned with herbs, topped with sautéed mushrooms, 
-                melted cheese, and a special mushroom sauce on a toasted artisan bun, offering a flavorful and satisfying experience.</p>
+              <span>Magic Mushroom Burger</span>
+              <p>The "Magic Mushroom Burger" features a juicy beef or vegan portobello mushroom patty seasoned with
+                herbs, topped with sautéed mushrooms,
+                melted cheese, and a special mushroom sauce on a toasted artisan bun, offering a flavorful and
+                satisfying experience.</p>
             </div>
             <div class="tjv-texto2">
-              <span>Price: 23€</span>
-              <button>Add to cart</button>
+              <span>23€</span>
+              <a href="#" class="btn-carrito" data-id="4">
+                <button class="Agregar-carrito">Add to cart</button>
+              </a>
             </div>
           </div>
         </div>
@@ -168,5 +199,6 @@
     </div>
   </footer>
 </body>
+<script src="./js/Carrito home.js"></script>
 
 </html>
