@@ -368,7 +368,7 @@ header img{
     justify-content: center;
     color: white;
     flex-direction: column;
-    margin-bottom: 5%;
+    margin-bottom: 47px;
 }
 
 .contBotones{
@@ -387,10 +387,13 @@ header img{
     padding-right: 5%;
 }
 
-.textBoton{
+.textBoton {
     color: white;
-    text-decoration: none;
     font-size: 200%;
+}
+
+.textBoton p {
+    text-decoration: none;
 }
 
 .botonMEZ{
@@ -473,6 +476,15 @@ footer{
         min-width: 199px;
     }
 
+    #Inicio-S {
+        margin-left: 21px;
+        margin-right: 19px;
+    }
+
+    #carr {
+        margin-right: 0;
+    }
+
     .header-img1 {
         margin-right: 10px;
     }
@@ -509,9 +521,33 @@ footer{
     .header-desplegable-4 {
         margin-left: 0px;
     }
+
+    .Carrito {
+        right: 30px;
+        top: 240px;
+    }
 }
 
 /* Fin Header */
+
+/* Inicio Employe Zone */
+
+@media only screen and (max-width: 450px) {
+    .tituloMEZ {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+
+    #comite {
+        margin-bottom: 20px;
+    }
+
+    .contBotones {
+        flex-direction: column;
+    }
+}
+
+/* Fin Employe Zone */
 
 /* Footer */
 
