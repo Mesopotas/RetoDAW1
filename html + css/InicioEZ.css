@@ -362,6 +362,48 @@ header img{
     background-color: rgba(0, 0, 0, 0.247);
 }
 
+.contMenuEZ{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.contBotones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tituloMEZ{
+    color: white;
+    font-size: 300%;
+}
+
+.ContBot{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.textBoton{
+    color: white;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+.botonMEZ{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgMEZ{
+    width: 80%;
+    height: 80%;
+}
 
 /* Inicio Footer */
 
