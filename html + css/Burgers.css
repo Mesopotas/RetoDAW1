@@ -537,6 +537,11 @@ footer {
     .header-desplegable-4 {
         margin-left: 0px;
     }
+
+    .Carrito {
+        right: 30px;
+        top: 240px;
+    }
 }
 
 /* Fin Header */
@@ -544,14 +549,24 @@ footer {
 /* Burgers */
 
 @media only screen and (max-width: 450px) {
+    .container {
+        background-repeat: repeat-y;
+    }
+
+    .container-2 {
+        padding-bottom: 20px;
+    }
+
     .hamEstan {
         flex-direction: column;
         align-items: center;
         padding-bottom: 0px;
+        width: 450px;
     }
 
     .producto {
         margin-bottom: 10px;
+        padding: 20px;
     }
 }
 

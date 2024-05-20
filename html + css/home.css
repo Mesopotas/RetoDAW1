@@ -643,6 +643,11 @@ footer {
     .header-desplegable-4 {
         margin-left: 0px;
     }
+
+    .Carrito {
+        right: 30px;
+        top: 240px;
+    }
 }
 
 /* Fin Header */
@@ -668,6 +673,17 @@ footer {
     .tarjeta-horizontal {
         flex-direction: column;
         margin-right: 20px;
+    }
+
+    .tj-texto-2 {
+        flex-direction: row;
+    }
+
+    .tj-texto-2 span {
+        padding-right: 24px;
+        align-items: center;
+        padding-bottom: 0px;
+        padding-left: 10px;
     }
 
     .tarjetas-vertical {
