@@ -392,10 +392,12 @@ header img {
 
 .tarjeta-horizontal {
     display: flex;
-    background-color: rgba(169, 169, 169, 0.377);
     padding: 13px;
     margin-top: 35px;
     margin-bottom: 35px;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin-bottom: 35px;
+    border: 5px solid rgba(182, 161, 117, 0.575);
 }
 
 .tj-foto {
@@ -441,11 +443,20 @@ header img {
 }
 
 .Agregar-carrito {
-    max-width: 110px;
-    padding: 10px;
-    font-size: 17px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: 2%;
+    border-color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 9px;
+    transition: all 0.3s ease;
 }
-
+.Agregar-carrito:hover{
+    box-shadow: 0 0 10px rgba(211, 211, 211, 0.781);
+    background-color: black;
+}
 .tarjetas-vertical {
     display: flex;
 }
@@ -453,24 +464,30 @@ header img {
 .tarjetav-1 {
     display: flex;
     flex-direction: column;
-    background-color: rgba(169, 169, 169, 0.377);
     margin-right: 20px;
     padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin-bottom: 35px;
+    border: 5px solid rgba(182, 161, 117, 0.575);
 }
 
 .tarjetav-2 {
     display: flex;
     flex-direction: column;
-    background-color: rgba(169, 169, 169, 0.377);
     margin-right: 20px;
     padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin-bottom: 35px;
+    border: 5px solid rgba(182, 161, 117, 0.575);
 }
 
 .tarjetav-3 {
     display: flex;
     flex-direction: column;
-    background-color: rgba(169, 169, 169, 0.377);
     padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.733);
+    margin-bottom: 35px;
+    border: 5px solid rgba(182, 161, 117, 0.575);
 }
 
 .tjv-foto {

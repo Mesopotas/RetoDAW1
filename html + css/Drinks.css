@@ -385,10 +385,10 @@ header img {
 
 .producto {
     color: aliceblue;
-    border: none;
-    border-radius: 1%;
+    margin-bottom: 35px;
+    border: 5px solid rgba(182, 161, 117, 0.575);
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.685);
+    background-color: rgba(0, 0, 0, 0.76);
     padding: 3%;
 }
 

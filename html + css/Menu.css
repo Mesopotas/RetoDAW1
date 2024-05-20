@@ -387,9 +387,26 @@ header img {
 .tarjeta-horizontal {
     display: flex;
     flex-direction: row;
-    background-color: rgba(169, 169, 169, 0.377);
     padding: 13px;
+    background-color: rgba(0, 0, 0, 0.733);
     margin-bottom: 35px;
+    border: 5px solid rgba(182, 161, 117, 0.575);
+    
+}
+.Agregar-carrito {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: 2%;
+    border-color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 9px;
+    transition: all 0.3s ease;
+}
+.Agregar-carrito:hover{
+    box-shadow: 0 0 10px rgba(211, 211, 211, 0.781);
+    background-color: black;
 }
 
 .tj-foto {
