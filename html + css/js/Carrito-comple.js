@@ -11,6 +11,11 @@ function cargarEventListeners() {
 
     // Eliminar Producto del Carrito
     carrito.addEventListener("click", eliminarProducto);
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        articuloCarrito = JSON.parse(localStorage.getItem('carrito')) || [];
+        carritoHTML();
+    });
 
     // Vaciar el Carrito
     vaciarCarritoBtn.addEventListener("click", () => {
@@ -18,6 +23,7 @@ function cargarEventListeners() {
         articuloCarrito = []; //Reseteamos el array
 
         limpiarHTML();
+        sincronizarStorage();
 
     })
 
@@ -112,7 +118,15 @@ function carritoHTML() {
         listaCarrito.appendChild(row)
 
     });
+    
+    // Agregar al carrito de compras el Storage
+    sincronizarStorage();
+
 /*/})*/
+}
+
+function sincronizarStorage() {
+    localStorage.setItem('carrito', JSON.stringify(articuloCarrito));
 }
 
 function limpiarHTML() {
