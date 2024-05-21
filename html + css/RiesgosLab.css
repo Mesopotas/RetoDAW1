@@ -375,6 +375,22 @@ header img {
     padding-right: 10%;
 }
 
+#caidas {
+    margin-bottom: 10px;
+}
+
+.caida h3 {
+    margin-top: 5px;
+}
+
+#posturas {
+    margin-bottom: 15px;
+}
+
+#posturas h3 {
+    margin-top: 15px;
+}
+
 .parRiesgo {
     color: white;
     font-size: 130%;
@@ -389,6 +405,10 @@ header img {
 .textoRiesgo {
     width: 60%;
     margin-right: 15%;
+}
+
+.textoRiesgo h3 {
+    margin-bottom: 10px;
 }
 
 .imgRiesgo {
