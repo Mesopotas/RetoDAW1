@@ -558,6 +558,11 @@ footer {
     .header-desplegable-4 {
         margin-left: 0px;
     }
+
+    .Carrito {
+        right: 30px;
+        top: 240px;
+    }
 }
 
 /* Fin Header */

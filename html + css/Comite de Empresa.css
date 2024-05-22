@@ -557,6 +557,11 @@ footer {
   .header-desplegable-4 {
       margin-left: 0px;
   }
+
+  .Carrito {
+    right: 30px;
+    top: 240px;
+}
 }
 
 /* Fin Header */
@@ -566,14 +571,21 @@ footer {
 @media only screen and (max-width: 450px) {
   .container {
     padding-top: 50px;
+    padding-bottom: 35px;
   }
   
   .container-2 {
     flex-direction: column;
+    padding-bottom: 15px;
+  }
+
+  .about-section {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .container-targetas {
-    padding: 0px 13px;
+    padding: 0px 8px;
   }
   }
 
