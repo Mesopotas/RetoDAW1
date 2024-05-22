@@ -1,5 +1,5 @@
 // Variables
-/*window.addEventListener('DOMContentLoaded', (event) => {*/
+window.addEventListener('DOMContentLoaded', (event) => {
 const carrito = document.querySelector("#carrito");
 const listaCarrito = document.querySelector("#lista-carrito tbody")
 const vaciarCarritoBtn = document.querySelector("#vaciar-carrito")
@@ -29,7 +29,6 @@ function cargarEventListeners() {
 
 }
 
-/*})*/
 let articuloCarrito = []
 
 // Funciones
@@ -95,8 +94,7 @@ function leerDatosProducto(producto) {
 
     carritoHTML();
 }
-function carritoHTML() {
-/*window.addEventListener('DOMContentLoaded', (event) => {*/    
+function carritoHTML() {  
     limpiarHTML();
 
     articuloCarrito.forEach(producto => {
@@ -122,7 +120,6 @@ function carritoHTML() {
     // Agregar al carrito de compras el Storage
     sincronizarStorage();    
 
-/*/})*/
 }
 
 function sincronizarStorage() {
@@ -138,3 +135,5 @@ function limpiarHTML() {
     }
 
 }
+
+})
