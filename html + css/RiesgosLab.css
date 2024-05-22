@@ -376,19 +376,31 @@ header img {
 }
 
 #caidas {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.caida h3 {
+#caidas h3 {
     margin-top: 5px;
 }
 
 #posturas {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 #posturas h3 {
-    margin-top: 15px;
+    margin-top: 20px;
+}
+
+#contacto {
+    margin-bottom: 15px;
+}
+
+#contacto h3 {
+    margin-top: 0;
+}
+
+#carga {
+    margin-bottom: 20px;
 }
 
 .parRiesgo {
@@ -408,6 +420,7 @@ header img {
 }
 
 .textoRiesgo h3 {
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -533,6 +546,30 @@ footer {
 }
 
 /* Fin Header */
+
+/* Riesgos Laborales */
+
+@media only screen and (max-width: 450px) {
+    .contRiesgos{
+        flex-direction: column;
+    }
+
+    .parRiesgo {
+        flex-direction: column;
+    }
+
+    .textoRiesgo {
+        margin: 0;
+        width: 390px;
+        padding-bottom: 20px;
+    }
+
+    .imgRiesgo {
+        margin-bottom: 20px;
+    }
+}
+
+/* Fin Riesgos Laborales */
 
 /* Footer */
 
