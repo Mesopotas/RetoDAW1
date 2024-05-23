@@ -1,50 +1,60 @@
 
-window.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', (event) => {
+  const fetchProductos = async () => {
+      const url = 'http://localhost:8080/RetoDAW1ModeloAnton/Controller?ACTION=PRODUCT.SQL_FIND_ALL';
 
+      try {
+          const response = await fetch(url);
+          if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const productos = await response.json();
+          console.log(productos);
+          productos.forEach(createProducto);
+      } catch (error) {
+          console.error('Error fetching productos:', error);
+      }
+  };
 
-    const url = `http://localhost:8080/RetoDAW1ModeloAnton/Controller?ACTION=PRODUCT.SQL_FIND_ALL`
-    console.log("Data --> ")
+  const createProducto = (Product) => {
+      const menu_list = document.querySelector('.hamEstan');
+      const card = document.createElement('div');
+      card.classList.add('card');
 
+      const { Img, Nombre, Precio, Descripcion } = Product;
 
+      card.innerHTML =`
+      <div class="producto">
+      <div class="fotoprod"> <img src="${Img}"></div>
+      <div class="texto">
+        <div class="nombre">
+          <p>${Nombre}</p>
+        </div>
+        <div class="ingredientes">
+          <p><span class="texto2">Ingredientes:</span><br> ${Descripcion}</p>
+        </div>
+        <div class="partebaja">
+          <div class="precio">
+            <p>${Precio} €</p>
+          </div>
+          <div class="contbotoncarro">
+            <button class="botoncarro" href="#">Carrito</button>
+          </div>
+        </div>
+      </div>
+    </div>`;
 
+      menu_list.appendChild(card);
 
-    const fetchData = async () => {
-        const burgerRes = await fetch(url)
-        const burgerData = await burgerRes.json()
-        console.log("Data --> ", burgerData)
+      card.querySelector('.comprar-btn').addEventListener('click', () => {
+          agregarAlCarrito(nombreProducto, precio, Imagen);
+      });
+  };
 
-        printBurguerData(burgerData)
-    }
+  const agregarAlCarrito = (titulo, precio, imagen) => {
+      // Aquí puedes implementar la lógica para agregar el producto al carrito
+      console.log('Producto añadido al carrito:', { titulo, precio, imagen });
+  };
 
-    const printBurguerData = (burguerData) => {
-        const category = document.getElementsByClassName('Product')[0]
-        Array.from(burguerData).forEach(Product => {
-            const container = document.createElement("div")
-            container.classList.add("container")
-            container.classList.add("Product")
-            category.appendChild(container)
-            container.innerHTML =
-                `<div class="producto">
-                <div class="fotoprod"> <img src="${Product.img}"></div>
-                <div class="texto">
-                  <div class="nombre">
-                    <p>${Product.Nombre}</p>
-                  </div>
-                  <div class="ingredientes">
-                    <p><span class="texto2">${Product.Descripcion}</p>
-                  </div>
-                  <div class="partebaja">
-                    <div class="precio">
-                      <p>${Product.Precio} €</p>
-                    </div>
-                    <a href="#" data-id="1">
-                      <button class="botoncarro">Carrito</button>
-                    </a>
-                  </div>
-                </div>
-              </div> 
-              `
-        })
-    }
-    fetchData()
-})
+  fetchProductos();
+});
