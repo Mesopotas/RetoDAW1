@@ -375,11 +375,10 @@ header img {
 
 .hamEstan {
     display: flex;
-    flex-direction: row;
-    width: 1000px;
-    justify-content: space-between;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    flex-wrap: wrap;
+    gap: 8%; /* Espacio entre elementos */
+    padding: 5%;
+    justify-content: center;
 }
 
 .producto {
