@@ -367,7 +367,8 @@ header img {
   justify-content: center;
   margin: 0 auto;
   max-width: 1600px;
-  background-color: rgba(0, 0, 0, 0.247);
+  background-color: rgba(0, 0, 0, 0.63);
+  flex-direction: column;
 }
 
 
@@ -389,16 +390,21 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
+.contTitulo{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: larger;
+}
 .columna-1 {
   float: left;
-  width: 33.3%;
+  width: 20%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
 
 .sombra {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.384);
   margin: 8px;
 }
 
@@ -407,6 +413,7 @@ html {
   text-align: center;
   background-color: #474e5d;
   color: white;
+  font-size: 130%;
 }
 
 .container-targetas {
