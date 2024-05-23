@@ -366,13 +366,25 @@ header img {
     margin: 0 auto;
     max-width: 1600px;
     background-color: rgba(0, 0, 0, 0.699);
+    flex-direction: column;
+}
+
+.titulorl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 110%;
 }
 
 .contRiesgos {
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 3%;
 }
 
 #caidas {
@@ -412,11 +424,16 @@ header img {
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-bottom: 10px;
 }
 
 .textoRiesgo {
-    width: 60%;
+    width: 70%;
     margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .textoRiesgo h3 {
@@ -428,8 +445,8 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 200px;
-    height: 200px;
+    width: 160px;
+    height: 150px;
 }
 
 .imgRiesgo img {
