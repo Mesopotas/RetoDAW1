@@ -407,7 +407,7 @@ header img {
 
 .ingredientes{
     word-wrap: break-word;
-    width: 100%;
+    max-width: 235px;
 }
 
 .texto2 {
