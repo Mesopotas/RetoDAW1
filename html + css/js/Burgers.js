@@ -13,7 +13,6 @@ async function Burger(category) {
     console.log(item) 
     const card = document.createElement("div"); card.className = "producto"; card.innerHTML = 
    `
-      <div class="producto">
       <div class="fotoprod"> <img src="${item.Img}"></div>
       <div class="texto">
         <div class="nombre">
@@ -31,6 +30,6 @@ async function Burger(category) {
           </div>
         </div>
       </div>
-    </div>`; burgerPage.appendChild(card); 
+    `; burgerPage.appendChild(card); 
   }
 }
