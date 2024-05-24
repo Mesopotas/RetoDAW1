@@ -60,7 +60,8 @@ header img {
   margin-right: 80px;
 }
 
-.header-desplegable-3 .despbtn-3 {
+.header-desplegable-3 a {
+  text-decoration: none;
   font-size: 25px;
   border: none;
   outline: none;
@@ -72,32 +73,8 @@ header img {
   /*margin: 0;  Important for vertical align on mobile phones */
 }
 
-.header-desplegable-3:hover .despbtn-3 {
+.header-desplegable-3:hover {
   background-color: red;
-}
-
-.header-dp-content-3 {
-  display: none;
-  position: absolute;
-  transform: translate(-20%, 40%);
-  background-color: white;
-  font-size: 20px;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.header-dp-content-3 a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.header-dp-content-3 a:hover {
-  background-color: gray;
 }
 
 .header-desplegable-3:hover .header-dp-content-3 {

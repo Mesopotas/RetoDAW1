@@ -59,7 +59,8 @@ header img {
     margin-right: 80px;
 }
 
-.header-desplegable-3 .despbtn-3 {
+.header-desplegable-3 a {
+    text-decoration: none;
     font-size: 25px;
     border: none;
     outline: none;
@@ -71,7 +72,7 @@ header img {
     /*margin: 0;  Important for vertical align on mobile phones */
 }
 
-.header-desplegable-3:hover .despbtn-3 {
+.header-desplegable-3:hover {
     background-color: red;
 }
 

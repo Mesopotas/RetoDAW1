@@ -59,7 +59,8 @@ header img {
     margin-right: 80px;
 }
 
-.header-desplegable-3 .despbtn-3 {
+.header-desplegable-3 a {
+    text-decoration: none;
     font-size: 25px;
     border: none;
     outline: none;
@@ -71,7 +72,7 @@ header img {
     /*margin: 0;  Important for vertical align on mobile phones */
 }
 
-.header-desplegable-3:hover .despbtn-3 {
+.header-desplegable-3:hover {
     background-color: red;
 }
 
@@ -376,7 +377,8 @@ header img {
 .hamEstan {
     display: flex;
     flex-wrap: wrap;
-    gap: 8%; /* Espacio entre elementos */
+    gap: 8%;
+    /* Espacio entre elementos */
     padding: 5%;
     justify-content: center;
 }
@@ -405,7 +407,7 @@ header img {
     align-items: center;
 }
 
-.ingredientes{
+.ingredientes {
     word-wrap: break-word;
     max-width: 235px;
 }
@@ -426,7 +428,8 @@ header img {
     border-radius: 9px;
     transition: all 0.3s ease;
 }
-.botoncarro:hover{
+
+.botoncarro:hover {
     box-shadow: 0 0 10px rgba(211, 211, 211, 0.781);
     background-color: black;
 }

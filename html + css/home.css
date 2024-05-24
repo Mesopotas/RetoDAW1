@@ -67,7 +67,8 @@ header img {
     margin-right: 80px;
 }
 
-.header-desplegable-3 .despbtn-3 {
+.header-desplegable-3 a {
+    text-decoration: none;
     font-size: 25px;
     border: none;
     outline: none;
@@ -79,32 +80,8 @@ header img {
     /*margin: 0;*/
 }
 
-.header-desplegable-3:hover .despbtn-3 {
+.header-desplegable-3:hover {
     background-color: red;
-}
-
-.header-dp-content-3 {
-    display: none;
-    position: absolute;
-    transform: translate(-20%, 40%);
-    background-color: white;
-    font-size: 20px;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.header-dp-content-3 a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.header-dp-content-3 a:hover {
-    background-color: gray;
 }
 
 .header-desplegable-3:hover .header-dp-content-3 {
@@ -453,10 +430,12 @@ header img {
     border-radius: 9px;
     transition: all 0.3s ease;
 }
-.Agregar-carrito:hover{
+
+.Agregar-carrito:hover {
     box-shadow: 0 0 10px rgba(211, 211, 211, 0.781);
     background-color: black;
 }
+
 .tarjetas-vertical {
     display: flex;
 }
