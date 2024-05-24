@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Employee Zone</title>
-  <link rel="stylesheet" href="InicioEZ.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="Administrador.css">
   <script src=""></script>
 </head>
 
@@ -13,13 +13,18 @@
   <!-- Inicio Header -->
   <header>
     <a href="./InicioSesion.html">
-      <img src="./img/InicioSesion.png" alt="Inicio Sesion" id="Inicio-S">
+      <img src="./img/InicioSesion.png" alt="Inicio Sesion">
     </a>
     <div class="header-texto">
       <div class="header-desplegable-3">
-        <a href="./Menu.html">
-          Menus
-        </a>
+        <button class="despbtn-3">
+          Menu
+        </button>
+        <div class="header-dp-content-3">
+          <a href="./Menu.html">Vegan</a>
+          <a href="./Menu.html">Celiac</a>
+          <a href="./Menu.html">Normal</a>
+        </div>
       </div>
       <div class="header-desplegable-1">
         <button class="despbtn-1">
@@ -58,7 +63,7 @@
     </div>
     <div class="header-img2">
       <a href="./Carrito.html">
-        <img src="./img/carrito02.png" alt="Carrito" id="carr">
+        <img src="./img/carrito02.png" alt="Carrito">
       </a>
       <div class="Carrito" id="carrito">
         <table id="lista-carrito">
@@ -82,31 +87,37 @@
 
   <div class="container">
     <div class="container-2">
-      <div class="contMenuEZ">
-        <p class="tituloMEZ">Employee Zone</p>
-        <div class="contBotones">
-          <div class="ContBot" id="comite">
-            <a class="botonMEZ" href="./Comite de Empresa.html">
-              <p class="textBoton">Comite de Empresa</p>
-              <img class="imgMEZ" src="./img/imgMenuComite.png" alt="Comite">
-            </a>
-          </div>
-
-          <div class="ContBot">
-            <a class="botonMEZ" href="./RiesgosLab.html">
-              <div class="textBoton">
-              <p>Riesgos Laborales</p>
-              </div>
-              <img class="imgMEZ" src="./img/imgMenuRiesgos.png" alt="Comite">
-            </a>
-          </div>
-
-          <div class="ContBot" id="admin">
-            <a class="botonMEZ" href="./Administrador.html">
-              <p class="textBoton">Administrador</p>
-              <img class="imgMEZ" src="./img/zonaadmin.png" alt="Administrador">
-            </a>
-          </div>
+      <div class="zonaprivada">
+        <div class="zonaprivtitulo">
+          <h1>Staff Zone</h1>
+        </div>
+        <div id="zona-clientes">
+          <table>
+            <thead>
+                <tr>
+                    <th>ID_CLIENT</th>
+                    <th>USER</th>
+                    <th>PASSWORD</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>user1</td>
+                    <td>password1</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>user2</td>
+                    <td>password2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>user3</td>
+                    <td>password3</td>
+                </tr>
+            </tbody>
+        </table>
         </div>
       </div>
     </div>
