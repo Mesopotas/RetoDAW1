@@ -375,25 +375,24 @@ header img {
 
 .comEstan {
     display: flex;
-    flex-direction: row;
-    width: 1000px;
-    justify-content: space-between;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    flex-wrap: wrap;
+    gap: 8%; /* Espacio entre elementos */
+    padding: 5%;
+    justify-content: center;
 }
 
 .producto {
     color: aliceblue;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.788);
+    padding: 3%;
     margin-bottom: 35px;
     border: 5px solid rgba(182, 161, 117, 0.575);
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.76);
-    padding: 3%;
 }
 
 .fotoprod {
-    display: flex;
-    justify-content: center;
+    width: 225px;
+    height: 200px;
 }
 
 .fotoprod img {
@@ -403,6 +402,11 @@ header img {
 
 .nombre {
     font-size: 180%;
+}
+
+.ingredientes{
+    word-wrap: break-word;
+    max-width: 235px;
 }
 
 .partebaja {
