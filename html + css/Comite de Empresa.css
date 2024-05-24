@@ -1,5 +1,6 @@
 /* Inicio de cabecera */
 body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
 }
 
@@ -375,12 +376,6 @@ header img {
 /*----------------------------TARGETAS DE NOSOTROS---------------------------------------*/
 
 
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
 html {
   box-sizing: border-box;
 }
@@ -390,12 +385,14 @@ html {
 *:after {
   box-sizing: inherit;
 }
-.contTitulo{
+
+.contTitulo {
   display: flex;
   justify-content: center;
   color: white;
   font-size: larger;
 }
+
 .columna-1 {
   float: left;
   width: 20%;
@@ -409,11 +406,15 @@ html {
 }
 
 .about-section {
-  padding: 50px;
+  padding: 21px;
   text-align: center;
   background-color: #474e5d;
   color: white;
-  font-size: 130%;
+  font-size: 120%;
+}
+
+.about-section h1 {
+  margin-top: 0;
 }
 
 .container-targetas {
@@ -449,17 +450,9 @@ html {
   background-color: #555;
 }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
 /* Fin About us */
 
 /* Inicio Footer */
-
 
 
 footer {
@@ -516,59 +509,59 @@ footer {
 
 @media only screen and (max-width: 450px) {
   header {
-      flex-direction: row;
+    flex-direction: row;
   }
 
   .header-texto {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .header-logo {
-      padding-bottom: 10px;
-      min-width: 199px;
+    padding-bottom: 10px;
+    min-width: 199px;
   }
 
   .header-img1 {
-      margin-right: 10px;
+    margin-right: 10px;
   }
 
   .header-img2 {
-      margin-left: 0px;
-      margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
   }
 
   .header-desplegable-1 {
-      margin-right: 0px;
+    margin-right: 0px;
   }
 
   .header-dp-content-1 {
-      transform: translate(74%, -13%);
+    transform: translate(74%, -13%);
   }
 
   .header-dp-content-1 a {
-      padding-left: 10px;
+    padding-left: 10px;
   }
 
   .header-desplegable-2 {
-      margin-left: 0px;
+    margin-left: 0px;
   }
 
   .header-desplegable-3 {
-      margin-right: 0px;
+    margin-right: 0px;
   }
 
   .header-dp-content-3 {
-      transform: translate(59%, -10%);
+    transform: translate(59%, -10%);
   }
 
   .header-desplegable-4 {
-      margin-left: 0px;
+    margin-left: 0px;
   }
 
   .Carrito {
     right: 30px;
     top: 240px;
-}
+  }
 }
 
 /* Fin Header */
@@ -580,7 +573,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 35px;
   }
-  
+
   .container-2 {
     flex-direction: column;
     padding-bottom: 15px;
@@ -589,12 +582,38 @@ footer {
   .about-section {
     margin-left: 15px;
     margin-right: 15px;
+    padding: 0 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  .about-section h1 {
+    font-size: 35px;
   }
 
   .container-targetas {
     padding: 0px 8px;
   }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
+  .columna-1 {
+    width: 275px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
 
 /* Fin About us */
 
@@ -602,15 +621,15 @@ footer {
 
 @media only screen and (max-width: 450px) {
   footer {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .footer-texto1 {
-      padding-bottom: 15px;
+    padding-bottom: 15px;
   }
 
   .footer-RRSS {
-      padding-top: 10px;
+    padding-top: 10px;
   }
 }
 

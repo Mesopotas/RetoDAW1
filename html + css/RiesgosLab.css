@@ -437,7 +437,7 @@ header img {
 }
 
 .textoRiesgo h3 {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -574,6 +574,8 @@ footer {
 @media only screen and (max-width: 450px) {
     .contRiesgos{
         flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .parRiesgo {
@@ -582,12 +584,40 @@ footer {
 
     .textoRiesgo {
         margin: 0;
-        width: 390px;
-        padding-bottom: 20px;
+        width: 360px;
     }
 
     .imgRiesgo {
         margin-bottom: 20px;
+        margin-top: 15px;
+    }
+
+    #caidas h3 {
+        width: 220px;
+    }
+
+    #posturas {
+        margin-bottom: 0;
+    }
+
+    #posturas img {
+        position: relative;
+        top: -25px;
+    }
+
+    #contacto {
+        margin-bottom: 0;
+    }
+
+    #contacto img {
+        position: relative;
+        top: -30px;
+    }
+
+    #carga {
+        position: relative;
+        top: -35px;
+        margin-bottom: 0;
     }
 }
 
