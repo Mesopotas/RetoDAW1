@@ -399,9 +399,12 @@ header img {
 }
 
 .tj-texto {
-    max-width: 910px;
+    width: 65%;
     padding-left: 25px;
     padding-right: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .tj-texto span {
