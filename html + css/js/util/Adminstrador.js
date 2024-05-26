@@ -31,9 +31,9 @@ async function AdminUser(category) {
 
         tableBody.appendChild(row);
     }
-
+    
     const deleteClient = async (Id_cliente) => {
-        const url = `localhost:8080/RetoDAW1ModeloAnton/Controller?ACTION=CLIENT.DELETE&ID_CLIENTE=${Id_cliente}`;
+        const url = `http://localhost:8080/RetoDAW1ModeloAnton/Controller?ACTION=CLIENT.DELETE&ID_CLIENTE=${Id_cliente}`;
         try {
             const response = await fetch(url, { method: 'DELETE' });
             if (response.ok) {
@@ -47,7 +47,7 @@ async function AdminUser(category) {
             console.error('Error al eliminar cliente:', error);
         }
     };
-
+    
     const deleteButton = document.getElementById('deleteButton');
     deleteButton.addEventListener('click', () => {
         const Id_cliente = prompt('Ingrese el ID del cliente que desea eliminar:');
@@ -57,6 +57,7 @@ async function AdminUser(category) {
             alert('Debe ingresar un ID válido.');
         }
     });
+    
 
 
 }
