@@ -69,7 +69,7 @@ function leerDatosProducto(producto) {
     infoProduccto = {
         imagen: producto.querySelector('img').src,
         titulo: producto.querySelector('span').textContent,
-        precio: producto.querySelector('.tjv-texto2 span').textContent,
+        precio: producto.querySelector('.tj-texto-2 span').textContent,
         id: producto.querySelector('a').getAttribute('data-id'),
         cantidad: 1
     }
