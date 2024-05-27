@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
        </p>
      </div>
      <div class="tj-texto-2">
-       <span>Price: ${item.Precio}€</span>
+       <span>${item.Precio}€</span>
        <a href="#" class="btn-carrito" data-id=${item.Id_Prod}>
          <button class="Agregar-carrito">Add to cart</button>
        </a>

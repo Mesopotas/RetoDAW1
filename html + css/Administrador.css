@@ -352,24 +352,6 @@ header img{
     max-width: 500px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    background-color: #030303;
-    color: white;
-}
-th, td {
-    padding: 30px;
-    border: 1px solid #ffffff;
-    text-align: left;
-}
-th {
-    background-color: #030303;
-    color: white;
-    font-size: 150%;
-}
-
 .zonaprivada{
     display: flex;
     flex-direction: column;
@@ -385,24 +367,29 @@ th {
     background-color: rgba(255, 255, 255, 0.315);
 }
 
-
-
-table {
+.zonaprivada table {
     width: 90%;
     border-collapse: collapse;
     margin: 20px auto;
 }
-th, td {
+
+.zonaprivada thead {
+    color: white;
+    font-size: 150%;
+}
+
+.zonaprivada th, td {
     border: 1px solid #000;
     padding: 12px;
     text-align: center;
+    color: white;
+    background-color: rgb(121 120 120 / 54%);;
+}
+
+
+.zonaprivada tbody {
     background-color: rgba(255, 255, 255, 0.315);
 }
-th {
-    background-color: #f2f2f2;
-}
-
-
 
 
 /* Inicio Footer */
