@@ -39,7 +39,7 @@ async function AdminUser(category) {
             if (response.ok) {
                 alert('Cliente eliminado exitosamente.');
                 // Volver a cargar la lista de clientes después de eliminar uno
-                getClients();
+                AdminUser+();
             } else {
                 throw new Error('Error al eliminar cliente.');
             }
