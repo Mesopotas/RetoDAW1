@@ -81,7 +81,7 @@ header img {
 }
 
 .header-desplegable-3:hover {
-    background-color: red;
+    background-color: rgba(182, 161, 117, 0.575);
 }
 
 .header-desplegable-3:hover .header-dp-content-3 {
@@ -111,7 +111,7 @@ header img {
 }
 
 .header-desplegable-1:hover .despbtn-1 {
-    background-color: red;
+    background-color: rgba(182, 161, 117, 0.575);
 }
 
 .header-dp-content-1 {
@@ -165,7 +165,7 @@ header img {
 }
 
 .header-desplegable-2:hover .despbtn-2 {
-    background-color: red;
+    background-color: rgba(182, 161, 117, 0.575);
 }
 
 .header-dp-content-2 {
@@ -219,7 +219,7 @@ header img {
 }
 
 .header-desplegable-4:hover .despbtn-4 {
-    background-color: red;
+    background-color: rgba(182, 161, 117, 0.575);
 }
 
 .header-dp-content-4 {
@@ -320,7 +320,7 @@ header img {
 
 .Carrito tbody tr::after {
     content: "";
-    border: 0px solid red;
+    border: 0px solid rgba(182, 161, 117, 0.575);
 }
 
 .header-img2:hover .Carrito {
