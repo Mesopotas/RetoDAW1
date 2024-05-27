@@ -19,15 +19,15 @@ async function Burger(category) {
           <p>${item.Nombre}</p>
         </div>
         <div class="ingredientes">
-          <p><span class="texto2">Descripcion:</span><br>${item.Descripcion}</p>
+          <p><span class="texto2">Ingredientes:</span><br> ${item.Descripcion}</p>
         </div>
         <div class="partebaja">
           <div class="precio">
-            <p>${item.Precio}</p>
+            <p>${item.Precio} €</p>
           </div>
-          <a href="#" data-id=${item.Id_Prod}>
-            <button class="botoncarro">Carrito</button>
-          </a>
+          <div class="contbotoncarro">
+            <button class="botoncarro" href="#">Carrito</button>
+          </div>
         </div>
       </div>
     `; burgerPage.appendChild(card); 

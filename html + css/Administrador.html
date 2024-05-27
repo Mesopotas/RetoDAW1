@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Zone</title>
   <link rel="stylesheet" href="Administrador.css">
-  <script src=""></script>
+  <script src="./js/util/Adminstrador.js"></script>
 </head>
 
 <body>
@@ -86,35 +86,29 @@
         <div class="zonaprivtitulo">
           <h1>Staff Zone</h1>
         </div>
-        <div id="zona-clientes">
-          <table>
-            <thead>
-                <tr>
-                    <th>ID_CLIENT</th>
-                    <th>USER</th>
-                    <th>PASSWORD</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>user1</td>
-                    <td>password1</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>user2</td>
-                    <td>password2</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>user3</td>
-                    <td>password3</td>
-                </tr>
-            </tbody>
+
+
+        <table>
+          <thead>
+              <tr>
+                  <th>ID</th>
+                  <th>NOMBRE</th>
+                  <th>CONTRASEÑA</th>
+              </tr>
+          </thead>
+        
+          <tbody  id="table-body">
+
+          </tbody>
         </table>
+
+        <button id="deleteButton">Delete</button>
+
+
+
+
+
         </div>
-      </div>
     </div>
   </div>
   <!-- Inicio Footer -->
