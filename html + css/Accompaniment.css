@@ -308,6 +308,8 @@ header img {
 .Carrito tbody td img {
     max-width: 65px;
     padding-right: 10px;
+    margin-left: 0;
+    margin-right: 5px;
 }
 
 .Carrito tbody tr::after {
@@ -319,7 +321,7 @@ header img {
     display: block;
 }
 
-.borrar-curso {
+.borrar-producto {
     background-color: red;
     border-radius: 50%;
     padding: 5px 10px;

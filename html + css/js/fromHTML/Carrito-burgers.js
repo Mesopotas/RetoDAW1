@@ -42,7 +42,7 @@ function agregar_producto(e) {
 }
 
 function eliminarProducto(e) {
-    if(e.target.classList.contains('borrar-curso')){
+    if(e.target.classList.contains('borrar-producto')){
         const productoId = e.target.getAttribute('data-id');
         const existe = articuloCarrito.some(producto => (producto.id === productoId && producto.cantidad > 1));
 
@@ -110,7 +110,7 @@ function carritoHTML() {
             <td width ="56px">${precio}</td>
             <td>${cantidad}</td>
             <td>
-                <a href="#" class="borrar-curso" data-id="${id}"> X </a>
+                <a href="#" class="borrar-producto" data-id="${id}"> X </a>
             </td>
         `;
 

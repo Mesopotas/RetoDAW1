@@ -25,7 +25,7 @@ async function Drinks(category) {
           <div class="precio">
             <p>${item.Precio}</p>
           </div>
-          <a href="#" data-id="1">
+          <a href="#" data-id=${item.Id_Prod}>
             <button class="botoncarro">Carrito</button>
           </a>
         </div>

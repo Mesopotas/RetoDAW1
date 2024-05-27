@@ -23,10 +23,12 @@ document.addEventListener("DOMContentLoaded", () => {
       </div>
       <div class="tj-texto-2">
         <span>${item.Precio}€</span>
-        <a href="#" class="btn-carrito" data-id="1">
+        <a href="#" class="btn-carrito" data-id=${item.Id_Prod}>
           <button class="Agregar-carrito">Add to cart</button>
         </a>
       </div>
+      
+    
       `; burgerPage.appendChild(card); 
     }
   }
