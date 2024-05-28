@@ -299,6 +299,21 @@ header img {
     font-size: 15px;
 }
 
+#pagar {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(110, 110, 110);
+    color: rgb(255, 255, 255);
+    padding-top: 6px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    border: darkgrey 1px solid;
+    font-size: 15px;
+}
+
 .Carrito tbody {
     display: block;
     margin-bottom: 10px;
@@ -591,7 +606,7 @@ footer {
 
 /* Header */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 680px) {
     header {
         flex-direction: row;
     }
@@ -702,11 +717,61 @@ footer {
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .container-2 {
+        flex-direction: row;
+        justify-content: normal;
+        padding-left: 20px;
+        transform: translate(0%, 0%);
+    }
+
+    .lo-mas-vendido {
+        margin-bottom: 20px;
+    }
+
+    .lo-mas-vendido span {
+        padding-left: 50px;
+    }
+
+    .tarjeta-horizontal {
+        flex-direction: column;
+        margin-right: 20px;
+    }
+
+    .tj-texto-2 {
+        flex-direction: row;
+    }
+
+    .tj-texto-2 span {
+        padding-right: 24px;
+        align-items: center;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }
+
+    .tarjetas-vertical {
+        flex-direction: column;
+    }
+
+    .tarjetav-1 {
+        margin-bottom: 10px;
+    }
+
+    .tarjetav-2 {
+        margin-bottom: 10px;
+    }
+
+    .tj-foto {
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+}
+
 /* Fin Lo mas vendido */
 
 /* Footer */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
     footer {
         flex-direction: column;
     }
