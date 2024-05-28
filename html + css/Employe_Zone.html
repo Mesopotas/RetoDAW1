@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio Sesion Employee</title>
   <link rel="stylesheet" href="./Employe_Zone.css">
+  <script src="./js/util/EmpZonLog.js"></script>
 </head>
 
 <body>
@@ -82,29 +83,29 @@
 
   <div class="container">
     <div class="container-2">
+
+
       <div id="contenedor-login">
         <div id="central">
-          <div id="login">
-            <div class="titulo">
-              Welcome Employee
+            <div id="login">
+                <div class="titulo">
+                    Welcome Employee
+                </div>
+                <form id="loginform">
+                    <input type="text" name="usuario" placeholder="Usuario" required>
+
+                    <input type="password" placeholder="Contraseña" name="password" required>
+
+                    <button type="submit" title="Ingresar" name="Ingresar">Login</button>
+                </form>
+                <div class="error" id="error"></div> <!-- Contenedor para el mensaje de error -->
+                <div class="pie-form">
+                    <a href="https://mail.google.com/mail/u/0/?pli=1#inbox">¿Perdiste tu contraseña?</a><br>
+                    <a href="./home.html">Volver</a>
+                </div>
             </div>
-            <form id="loginform">
-              <input type="text" name="usuario" placeholder="Usuario" required>
-
-              <input type="password" placeholder="Contraseña" name="password" required>
-
-              <button type="submit" title="Ingresar" name="Ingresar">Login</button>
-            </form>
-            <div class="pie-form">
-              <a href="https://mail.google.com/mail/u/0/?pli=1#inbox">¿Perdiste tu contraseña?</a><br>
-              <a href="./home.html">Volver</a>
-            </div>
-          </div>
-          <div class="inferior">
-
-          </div>
         </div>
-      </div>
+    </div>
 
 
 
