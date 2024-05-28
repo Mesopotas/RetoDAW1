@@ -277,12 +277,12 @@ header img {
 }
 
 #Imagen {
-    padding-right: 30px;
+    padding-right: 35px;
 }
 
 #Nombre {
     padding-left: 5px;
-    padding-right: 30px;
+    padding-right: 42px;
 }
 
 #vaciar-carrito {
@@ -328,7 +328,6 @@ header img {
 
 .Carrito tbody td img {
     max-width: 65px;
-    padding-right: 10px;
     margin-left: 0;
     margin-right: 5px;
 }

@@ -106,7 +106,7 @@ function carritoHTML() {
             <td>
                 <img src="${imagen}" padding-right= "15px"></img>
             </td>
-            <td width="78px">${titulo}</td>
+            <td width="78px" id="titulo">${titulo}</td>
             <td width ="56px">${precio}</td>
             <td>${cantidad}</td>
             <td>

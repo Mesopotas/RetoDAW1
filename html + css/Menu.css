@@ -271,12 +271,12 @@ header img {
 }
 
 #Imagen {
-    padding-right: 30px;
+    padding-right: 40px;
 }
 
 #Nombre {
     padding-left: 5px;
-    padding-right: 30px;
+    padding-right: 42px;
 }
 
 #vaciar-carrito {
@@ -290,6 +290,21 @@ header img {
     border-radius: 5px;
     border-color: rgb(0, 0, 0);
     border: darkgray 1px solid;
+    font-size: 15px;
+}
+
+#pagar {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(110, 110, 110);
+    color: rgb(255, 255, 255);
+    padding-top: 6px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    border: darkgrey 1px solid;
     font-size: 15px;
 }
 
