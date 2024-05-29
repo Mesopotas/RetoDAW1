@@ -36,6 +36,7 @@ header img {
     color: white;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 225px;
 }
 
 .header-logo img {
@@ -49,6 +50,17 @@ header img {
     margin: 0px;
 }
 
+.header-desplegable-1-3 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1px;
+}
+
+.header-desplegable-2-4 {
+    display: flex;
+    margin-top: 2px;
+}
+
 .header-desplegable-3 {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
@@ -56,7 +68,7 @@ header img {
     color: white;
     float: left;
     overflow: hidden;
-    margin-right: 80px;
+    margin-right: 60px;
 }
 
 .header-desplegable-3 a {
@@ -76,30 +88,6 @@ header img {
     background-color: rgba(182, 161, 117, 0.575);
 }
 
-.header-dp-content-3 {
-    display: none;
-    position: absolute;
-    transform: translate(-20%, 40%);
-    background-color: white;
-    font-size: 20px;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.header-dp-content-3 a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.header-dp-content-3 a:hover {
-    background-color: gray;
-}
-
 .header-desplegable-3:hover .header-dp-content-3 {
     display: block;
 }
@@ -111,7 +99,7 @@ header img {
     color: white;
     float: left;
     overflow: hidden;
-    margin-right: 80px;
+    margin-right: 60px;
 }
 
 .header-desplegable-1 .despbtn-1 {
@@ -165,7 +153,7 @@ header img {
     color: white;
     float: left;
     overflow: hidden;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 .header-desplegable-2 .despbtn-2 {
@@ -220,7 +208,7 @@ header img {
     color: white;
     float: left;
     overflow: hidden;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 .header-desplegable-4 .despbtn-4 {
@@ -510,7 +498,76 @@ footer {
 
 /* Header */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 1220px) {
+    header {
+        flex-direction: row;
+    }
+
+    .header-texto {
+        flex-direction: row;
+    }
+
+    .header-desplegable-1-3 {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 25px;
+    }
+
+    .header-desplegable-2-4 {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 25px;
+    }
+
+    .header-logo {
+        padding-bottom: 10px;
+        min-width: 199px;
+    }
+
+    .header-img1 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header-img2 {
+        margin-left: 0px;
+        margin-right: 0;
+    }
+
+    .header-desplegable-1 {
+        margin-right: 0px;
+    }
+
+    .header-dp-content-1 {
+        transform: translate(74%, -13%);
+    }
+
+    .header-dp-content-1 a {
+        padding-left: 10px;
+    }
+
+    .header-desplegable-2 {
+        margin-left: 0px;
+    }
+
+    .header-desplegable-3 {
+        margin-right: 0px;
+    }
+
+    .header-dp-content-3 {
+        transform: translate(59%, -10%);
+    }
+
+    .header-desplegable-4 {
+        margin-left: 0px;
+    }
+
+    .Carrito {
+        top: 130px;
+    }
+}
+
+@media only screen and (max-width: 749px) {
     header {
         flex-direction: row;
     }
@@ -524,6 +581,18 @@ footer {
         min-width: 199px;
     }
 
+    .header-desplegable-1-3 {
+        flex-direction: row;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .header-desplegable-2-4 {
+        flex-direction: row;
+        align-items: center;
+        margin-left: 0;
+    }
+
     .header-img1 {
         margin-right: 10px;
     }
@@ -531,6 +600,73 @@ footer {
     .header-img2 {
         margin-left: 0px;
         margin-right: 20px;
+    }
+
+    .header-desplegable-1 {
+        margin-right: 0px;
+    }
+
+    .header-dp-content-1 {
+        right: 217px;
+        top: 27px;
+    }
+
+    .header-dp-content-1 a {
+        padding-left: 10px;
+    }
+
+    .header-desplegable-2 {
+        margin-left: 0px;
+    }
+
+
+
+    .header-desplegable-3 {
+        margin-right: 0px;
+    }
+
+    .header-desplegable-4 {
+        margin-left: 0px;
+    }
+
+    .Carrito {
+        right: 10px;
+        top: 170px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    header {
+        flex-direction: row;
+    }
+
+    .header-texto {
+        flex-direction: column;
+    }
+
+    .header-desplegable-1-3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-desplegable-2-4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-logo {
+        padding-bottom: 10px;
+        min-width: 199px;
+    }
+
+    .header-img1 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .header-img2 {
+        margin-left: 0px;
+        margin-right: 0;
     }
 
     .header-desplegable-1 {
@@ -569,41 +705,67 @@ footer {
 
 /* Fin Header */
 
-/* Burgers */
+/* Footer */
 
-@media only screen and (max-width: 450px) {
-    .container {
-        background-repeat: repeat-y;
+@media only screen and (max-width: 994px) {
+    footer {
+        flex-direction: row;
     }
 
-    .container-2 {
-        padding-bottom: 20px;
-    }
-
-    .hamEstan {
+    .footer-texto1 {
         flex-direction: column;
-        align-items: center;
-        padding-bottom: 0px;
-        width: 450px;
+        padding-bottom: 15px;
+        width: 267px;
+        padding-left: 25px;
+        padding-right: 10px;
     }
 
-    .producto {
-        margin-bottom: 10px;
-        padding: 20px;
+    .footer-texto2 {
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+
+    .footer-RRSS {
+        padding-top: 10px;
     }
 }
 
-/* Fin Burgers */
+@media only screen and (max-width: 749px) {
+    footer {
+        flex-direction: row;
+    }
 
-/* Footer */
+    .footer-texto1 {
+        flex-direction: column;
+        padding-bottom: 15px;
+        width: 267px;
+        padding-left: 25px;
+        padding-right: 10px;
+    }
 
-@media only screen and (max-width: 450px) {
+    .footer-texto2 {
+        padding-bottom: 15px;
+        padding-left: 15px;
+    }
+
+    .footer-RRSS {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
     footer {
         flex-direction: column;
     }
 
     .footer-texto1 {
         padding-bottom: 15px;
+        align-items: center;
+    }
+
+    .footer-texto2 {
+        padding-left: 5px;
+        padding-bottom: 5px;
     }
 
     .footer-RRSS {
