@@ -406,6 +406,15 @@ header img{
     background-color: rgba(255, 255, 255, 0.315);
 }
 
+.zonaprivada button {
+    border: 3px solid rgba(182, 161, 117, 0.575);
+    padding: 15px 20px;
+    margin-right: 33px;
+    color: white;
+    background-color: rgb(121 120 120 / 54%);
+    font-size: 15px;
+}
+
 
 /* Inicio Footer */
 
